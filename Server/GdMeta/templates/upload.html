@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>模型上传</title>
+
+  <link rel="stylesheet" href="/static/css/uploadstyle.css">
+  <link rel="stylesheet" href="/static/Huploadify-master/Huploadify.css">
+  <link rel="stylesheet" href="/static/bootstrap-3.4.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/static/bootstrap-3.4.1-dist/css/bootstrapValidator.min.css">
+
+</head>
+<body>
+
+ <div id="FormDiv">
+    <div class="form-group">
+      <label for="moduleName">模型名称</label>
+      <input class="form-control" id="moduleName" placeholder="模型名称">
+    </div>
+    <div class="form-group">
+      <label for="moduleDesp">模型描述</label>
+      <!--
+      <input class="form-control" id="moduleDesp" placeholder="模型描述">
+      -->
+      <textarea class="form-control" rows="5" id="moduleDesp" placeholder="模型描述"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="moduleTag">模型标签(使用#分割)</label>
+      <input class="form-control" id="moduleTag" placeholder="模型描述(使用#分割)">
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn btn-primary" style="width:500px;margin-top:30px;" onclick=" initFileUpload();">保存</button>
+    </div>
+     <!--
+     <p>注意：请选择文件并上传，然后再提交表单。</p>
+     -->
+    <div id="divUploadModule"></div>
+    <button type="button" class="btn btn-primary" style="width:500px;margin-top:30px;" onclick="gotoMainPage();">返回主页</button>
+  </div>
+
+<!-- partial -->
+  <script src='/static/js/jquery-1.11.0.min.js'></script>
+  <script  src="/static/js/upload.js"></script>
+  <script  src="/static/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+  <script  src="/static/bootstrap-3.4.1-dist/js/bootstrapValidator.min.js"></script>
+  <script  src="/static/Huploadify-master/jquery.Huploadify.js"></script>
+  <script type="text/javascript">
+    var params = {};
+
+    $(document).ready(function() {
+        initValidator();
+    });
+
+    function initValidator(){
+        $('#defaultForm').bootstrapValidator({
+　　　　　　　　message: 'This value is not valid',
+            　feedbackIcons: {
+                　　　　　　　　valid: 'glyphicon glyphicon-ok',
+                　　　　　　　　invalid: 'glyphicon glyphicon-remove',
+                　　　　　　　　validating: 'glyphicon glyphicon-refresh'
+            　　　　　　　　   },
+            fields: {
+                moduleName: {
+                    message: '模型名称验证失败',
+                    validators: {
+                        notEmpty: {
+                            message: '模型名称不能为空'
+                        }
+                    }
+                },
+                moduleDesp: {
+                    message: '模型描述验证失败',
+                    validators: {
+                        notEmpty: {
+                            message: '模型描述不能为空'
+                        }
+                    }
+                }
+
+            }
+        });
+    }
+
+    function initFileUpload(){
+        params = {"moduleName":$("#moduleName").val(),
+                    "moduleTag":$("#moduleTag").val(),
+                    "moduleDesp":$("#moduleDesp").val()};
+        var up = $('#divUploadModule').Huploadify({
+            auto:false,
+            fileTypeExts:'*.*',
+            multi:false,
+            fileObjName:'file',             //在后端接受文件的参数名称，如PHP中的$_FILES['file']
+            formData:params,
+            fileSizeLimit:99999999999,
+            showUploadedPercent:true,
+            showUploadedSize:true,
+            removeTimeout:9999999,
+            uploader:'/gdmeta/filesubmit/',
+            buttonText:'选择文件',          //上传按钮上的文字
+            onUploadStart:function(file){
+                alert("开始上传");
+
+                return false;
+                console.log(file.name+'开始上传');
+            },
+            onInit:function(obj){
+                console.log('初始化');
+                console.log(obj);
+            },
+            onUploadComplete:function(file){
+                console.log(file.name+'上传完成');
+            },
+            onCancel:function(file){
+                console.log(file.name+'删除成功');
+            },
+            onClearQueue:function(queueItemCount){
+                console.log('有'+queueItemCount+'个文件被删除了');
+            },
+            onDestroy:function(){
+                console.log('destroyed!');
+            },
+            onSelect:function(file){
+                params = {"moduleName":$("#moduleName").val(),"moduleTag":$("#moduleTag").val(),"moduleDesp":$("#moduleDesp").val()};
+                console.log(file.name+'加入上传队列');
+            },
+            onQueueComplete:function(queueData){
+                console.log('队列中的文件全部上传完成',queueData);
+                alert("上传完成，请返回主页面");
+            }
+        });
+    }
+
+    // 这个方法暂时不用
+    function upload(){
+      var file_id = "upload_file";
+      var url = "/gdmeta/filesubmit";
+      var form_data = new FormData();
+      var file_info =$( '#' + file_id)[0].files[0];
+      form_data.append('file',file_info);
+      if(file_info==undefined){
+          alert('no file is selected');
+          return false
+      }
+      $.ajax({
+              url:url,
+              type:'POST',
+              headers: {"X-CSRFToken": getCookie("csrftoken")},
+              data: form_data,
+              processData: false,  // tell jquery not to process the data
+              contentType: false,  // tell jquery not to set contentType
+              success: function(result) {
+                  alert("文件正在上传，请稍后");
+              }
+          });
+    }
+
+    // 返回主页面
+    function gotoMainPage(){
+        window.location.href="../main/";
+    }
+
+  </script>
+</body>
+</html>

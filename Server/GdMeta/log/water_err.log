@@ -1,0 +1,1137 @@
+[2023-02-21 18:16:11,044][Thread-2:12872][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/userauth/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 18:18:20,223][Thread-7:10300][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/userauth/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 20:17:43,806][Thread-1:6924][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 20:20:36,966][Thread-6:11260][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 20:21:16,219][Thread-6:11260][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 20:22:59,058][Thread-6:13272][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 20:23:20,757][Thread-6:13272][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 20:23:22,211][Thread-6:13272][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 20:23:24,700][Thread-8:5948][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 20:25:44,028][Thread-7:9592][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 20:30:54,487][Thread-6:3900][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 20:44:28,112][Thread-2:11236][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\renderers.py", line 722, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+[2023-02-21 21:03:28,326][Thread-1:13300][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/filesubmit]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/gdmeta/filesubmit/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2023-02-21 21:05:25,440][Thread-6:2072][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/filesubmit]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/gdmeta/filesubmit/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2023-02-21 21:16:07,016][Thread-1:5504][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/filesubmit]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/gdmeta/filesubmit/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2023-02-21 21:17:39,990][Thread-3:12116][task_id:root][fileupload.py:48][ERROR]['NoneType' object has no attribute 'name']
+[2023-02-21 21:17:39,991][Thread-3:12116][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./upload', file_obj.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-02-21 21:25:23,260][Thread-7:4920][task_id:root][fileupload.py:48][ERROR]['NoneType' object has no attribute 'name']
+[2023-02-21 21:25:26,607][Thread-7:4920][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./upload', file_obj.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-02-21 21:36:00,882][Thread-11:3792][task_id:root][fileupload.py:48][ERROR]['MultiValueDict' object has no attribute 'name']
+[2023-02-21 21:36:00,885][Thread-11:3792][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./upload', file_obj.name)
+AttributeError: 'MultiValueDict' object has no attribute 'name'
+[2023-02-21 21:36:02,394][Thread-8:11252][task_id:root][fileupload.py:48][ERROR]['NoneType' object has no attribute 'name']
+[2023-02-21 21:36:03,117][Thread-8:11252][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./upload', file_obj.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-02-23 08:58:58,334][Thread-1:16788][task_id:root][views.py:50][ERROR][F:/Project/Server/GdMeta/templates/loadModule.html]
+[2023-02-23 08:58:58,334][Thread-1:16788][task_id:root][views.py:51][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 47, in get
+    response = render(request, path, {'data': user_dict, 'date': 123});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: F:/Project/Server/GdMeta/templates/loadModule.html
+[2023-02-23 08:58:58,506][Thread-1:16788][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/loadModule/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-23 09:01:58,855][Thread-6:6140][task_id:root][views.py:50][ERROR][F:/Project/Server/GdMeta/templates/loadModule.html]
+[2023-02-23 09:01:58,856][Thread-6:6140][task_id:root][views.py:51][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\views.py", line 47, in get
+    response = render(request, path, {'data': user_dict, 'date': 123});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: F:/Project/Server/GdMeta/templates/loadModule.html
+[2023-02-23 09:01:59,067][Thread-6:6140][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/loadModule/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-23 09:05:16,648][Thread-6:6140][task_id:root][views.py:50][ERROR][F:/Project/Server/GdMeta/templates/loadModule.html]
+[2023-02-23 09:05:16,651][Thread-6:6140][task_id:root][views.py:51][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\views.py", line 47, in get
+    response = render(request, path, {'data': user_dict, 'date': 123});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: F:/Project/Server/GdMeta/templates/loadModule.html
+[2023-02-23 09:05:16,889][Thread-6:6140][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/loadModule/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-23 09:06:43,983][Thread-6:14020][task_id:root][views.py:50][ERROR][loadModule.html]
+[2023-02-23 09:59:08,646][Thread-10:6588][task_id:root][views.py:48][ERROR][loadModule.html]
+[2023-02-23 09:59:08,648][Thread-10:6588][task_id:root][views.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\views.py", line 45, in get
+    response = render(request, "loadModule.html", {'data': info_dict});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loadModule.html
+[2023-02-23 09:59:08,828][Thread-10:6588][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/loadModule/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-23 10:34:20,058][Thread-44:13476]\-j∂/Ω§@0'œ”®ÙUqñ∑*·TOHáò9Æ+W›‚_7ŒKª≤òBÕ Y∆⁄82¨ÌÁKYµJú ∫î‰UΩürŸÁiZ‚5Û∞Ì~D√π9å`1™E‡’ ÛÀ(–6ûÅ^∫údΩ◊µãÅÌ6É–Õ’—;BPO{ÖÈEıî§ä˚4E`[n;F;Nê”$∫ßÊ$¡bHVP∞p1fL%&Ùˆ=åS3€9Ôè∂ú1ªD0TN>G?‰Æˆ_»≈ˇ4vb*∆|ü~â∏V∑3`5Í1’¿:íÑí ’à˝Mäwz∑˜ÈsÔK?±®e⁄œän˚èIóÖ4M‡≥2“•(ø≥à_¿E^\Ëå†¯ÛÈ+qû7¬ã' ç÷·Uüú”qº4c#éÛáØ{Á√W3Ë;lìråtÏ][s˙
+õPÈ∂>ºt$Íµ⁄«
+Üë•=UR…å$6È≥s ˇ¥è	–≤P|∆∏SÄW&©üç“°h`ä¶≤>èvUhèîüêÌ„-Ä_¶Aıß¶cˆ %wP4æ+õ‘'¨√$vÆ#◊5àuC’›˚ﬁp5&83ŒxπŒexBEﬂd®ñÁZXeû»…?®)]d±)Y$≈"<cEä~UmmeÂgM9˚eáÎ|N∂êÒ'O˜À“G‚Ïª—ˇÀ}÷•ŒœueO @G7dFúuºaRÚΩ >Z˛®%ù¯Ó(g˙ıê‰føÓ$/h,âG]†8:∞á∫:©ÇÑ◊õ≈&|pü+=Q[&¸ôW¶'ÒE_ôÉÑd⁄í¢rƒ‘´‚1≥ƒÿk~nåä{∫+®÷V–>˘ÎtŒ^˙€SŸë)sßå‡øƒçmÌÎã≈Íu“Ék¡"a4ˆÏD⁄KDtK≤	ÕsÄaû˚ÀN‘‘gÎÙ@02Vk2È'±h˝≈ÑÒÿª¿˛©ÇLû*«¨K*Ñõn≈¶Úy∏Ùb3ì˛¬·„^+⁄°dh_HKë¸˚Z¡j»æ:öÛ¯*°Jc+ÌÖœy•”_	îµZ/`¨Âg£3ü>^æ‹à¬ègT∏√€}¨ﬁÂ:%HpeÌçè'èßù·oŸÑh◊FÕ3[∑s'éwIµÜïÂI`h®√tﬂ_*0æØUŒ⁄4¡ÆAì£Dös@ã>°µhüÅ=7_ƒckI,â√ì∫≈¢≤ç)ï- —»âxüM¯ƒ´.8v7,ÅC{–Ô÷pìÎÉE¯˜©_Dã£ƒbªùx`FØwÕ{úh}KÍ9U(P∏ŸfQ‰jrQaÀ˝XÀ”õˆ$kç•§ZM$:)àÏLZ£∏Z‘+l_{I‡Ä`N/üßQË™„-nU¬®ûë0r\VØªƒæoúóvˇe0Öö ≥å¥pd=Y€Œñ≥jï8Au)»´{>Â≤+Œ“¥)ƒkÁa⁄¸àárs¿cTã¡™ÁñQ†m<#Ωu8…{Øj7⁄m°õ´¢vÑ†û˜“ãÎ)H%ˆhä¿∂‹vå vù!¶IuOÃIÇƒê¨°`‡bÃòJMË3Ï{¶g∂r;ﬂm8cvà`®4ú(:|é…]Ïøëã˛hÏƒT%å˘>¸3p¨)nf¿k‘c´Äu%7$´˙õÓıoÔ“0ÁﬁñcPÀµü›˜ì/
+hõ¡f"e•JP)gøÄä.º∏-—AÒÁ“V„<oÖNA≠¬8´?9¶„xh∆GÁ^ˆœÜÆg–vŸ&Â&Èÿ∫∂ÁÙ6°”l}xËH)’j7µé#Jz™6•ìHm“)fÊ(˛i°d†˘çp,ß ÆMS?•B–¡Md}Ï™–/)? '€∆[ øLÉÎOL«ÏîJÓ†i|W7®OYÜHÌ\GÆkÍÜ´ª˜º‡jLp gúÒrú Ñäæ…Q,#Œ¥∞À=ëíPR∫…b.R≤IäDx∆ã"¸™&⁄⁄À Œösˆ ÷¯ùm!‚N6üÔñ7§è≈Ÿw£ˇñ˚≠J6-ùûÍ û Äén»ç8Îx¬•‰z@|µ˝PK;Ò‹PœıÎ!»Õ‹H^–Xéª@puatuR	Ø7äL¯.·>V>4z¢∂M˘2<ØLO‚äø31»/µ$*)DÂâ©Wƒcgâ∞÷¸›˜tWQ¨≠†|=Û÷ÈúΩı∂ß≥"RÁO¡â€€◊ã‘Î•◊ÇD¬iÌÿâ¥ñàË.ñ;döÊ9 .√=˜ñù©®œ◊ËÄ`d¨÷e“Ob—˚ã	„∞!wÅ¸7Sô<TèXñU‡	68‹:ãM‰Ûp$'Ëƒg'˝Ö√∆ºV'µB»–æêó#˘ˆµÇ’ë|u4	ÁUBî∆V7€
+ûÛK¶æ˛)j&¥^¡Y œFg>|Ω}∏!ÖŒ©qá∂˙5YΩ tJê‡&À€N'O;¬ﬁ!≥—Æçöf∑nÊNÓìk+ í¿—QÜ.ÈææT`(+}^´ù¥iÉ\É'Fâ4Ê Å}Cj—?$znøà
+∆÷íYá'uãEdS*Z£ëÒ>ö7ÒâV\pÏnYÜ˜°ﬂ¨·'◊ä?ÒÔRæâGà(≈w:¿ç^Ôö˜8–˙ó‘r™P°q·≤Ã£»‘˛‰¢6√ó˙±óß7ÏH◊KH¥öHtSÿòµFëpµ®Vÿæˆì¡ ¿ú_?N£—U∆Z‹´Ñ5Q="`‰"∏≠_wâ|ﬂ9.Ì˛ a4g?h‡»z≥∑ù-f’*pÇÍSëVˆ}ÀdWù•hSà◊Œ√µ˘?‰Ê1Ä∆©ÉTœ,£@⁄xFzÍqí˜^‘n.¥⁄C7WDÌ	A=Ó•÷RêJ+Ï—Åm∏Ì@Ì:CLíÍüòìâ!YB¡¿≈ô0îõ–gÿˆ1Lœl‰wæ>⁄p∆Ì¿Pi8Pt˘ˇíªŸ#¸—Ÿà®KÚ}¯f&·XR‹ÕÄ◊®«W ÍJnHV#ı6)›Íﬂﬂ§aœΩ,˛∆°ók>)ªÓ=&^—7ÇÃDÀJî†R˛Œ!]yp[¢2É„œ§≠∆xﬂ
+,úÇ7[ÑqV~sM∆—åé;ŒΩÏ7ü\œ†Ì≤M 0M”±umœË*mC¶ÿ˙Ò–êS™‘ok*FîıTmK&0ê€§RÕÃP¸.“<'B…@-Û‡YN\ö¶~7JÖ°Ç*ö»˙=ŸU†^>R~@O∑å,∂~ô÷ûôèÿ;(î1›@“¯ÆoPû≥ë⁄∏è\÷!’3WwÔx=¿‘ò‡@œ9‚‰;9ï·	;}í¢XGùiañ{#$˛†•uíƒ\•dìàÒç(E˘T8Mµµóî5ù4ÁÌî≠Ò:⁄Cƒúl=?ﬂ,oIã≤ÔGˇ-˜Zîl[;=’ï<›ëq÷ÖK»:ÙÄ˘k˙†ñw„∏°üÎ÷Cëöˇ∏8êΩ†∞46%vÄ‡Í¬ËÍ§
+^oô]¬|¨|hıElõÚdy^òü≈~fbê_jH0TRâÀRØà∆œa≠˘∫2)ÓËÆ£Y[@¯{Á≠”9{ÎmOfD•Œû3Çˇ5∑∑Æ/©◊JØà=Ñ”€±i-–],v»'5Ãr ]Ü{Ô-;SQüØ— ¿…Y¨À§ûƒ	£˜«`BÔ¯n¶	2x®±,´¿2lq∏tõ…Ê‡HO—àŒO˚áçx¨OjÑ9ë°}!.GÛÌk´"¯Íhœ‡™Ö)å¨8o∂?=ÊóM}¸&R‘MhΩÇ≥ïûåŒ|˘z˚pB#
+=ùR„mÙj≥{îËï!¿Mó∂6<úN>ûwÖºCf£]4Õn›Ãú
+9›&÷Wï%Ä9¢£]”}|®<¿PV˙ΩW;h”πNçh1ÃA,˙Ü’¢~HÙ›ç≠$≤'NÎä»64¶T¥G"%‚}4o„¨∏·ÿ‹≤ÔCøY¬OÆ„ﬁ•},6èQäÓu·ÅΩﬂ5Óq°ı/®ÂT°B„√d1ôGë©˝…Dmá/ıc/Noÿê5Æ6ñëi4êË¶#±1j"·kP≠±}Ì'Ç Å8æ~ùG¢´åµπWj¢zD<¡»EqZæÔ˘ær]€˝î¬hŒ0~—¿	êıgo:ZÕ™T·‘ß"≠Ï˚ñ»Ø;J–ßØùákÚ ~…ÃcçR/®ûYFÅ¥å
+ı‘„%ÓΩ®0‹\i¥ÜnÆâ⁄Ç{‹/J/¨• îWŸ¢+€q⁄0Å⁄tÜô%’?1&B≤ÖÉÅã2a)7†œ±ÏbôûŸ»Ô|}¥·ç⁄!Ä
+†“p†ÈÚ9ˇ%w≤˛F/˘£≥Pñ3‰˚ÃM¬∞•πõØQéÆ‘î ‹ê¨GÍlSª’øøH√üzY˝çC.÷|Sw‹zLº)¢oò âñï)@•˝úB˛(∫Ú‡∑De«üI[åÒæY9n∑‚¨¸Êõç·£wú={ÿo>πüA€dõî`õßbÍ€ü–T⁄áM±ı„° ßU®ﬁ÷8T4ç)Í®⁄ñLa!∑H•õò†¯]§xNÖíÄ[Ê5¿≤úπ5L¸nïCU5ëÙ{≤´@º|§¸ÄüoYl˝2≠=3∞0vQ(c∫Å•Ò\ﬁ°=f#µqπ¨C™fÆÔﬁ{Å©1¿Åûs≈»vs+¬(v˚%D∞è:“√,ˆFI˝AJÎ%àπJ…&)„,PãÚ®põkk/(k:iœ€(?[‚u¥áâ8ÿzæXﬁí?eﬁè˛[Óµ(ÿ∂v{´*x9ª"4„≠‡;
+óêuÈÚ◊ıA,Ô«qC?◊¨á#5ˇpq!{A`hlJ:Ì¡’Ñ=—’H4&ºﬁ)3‡ªÑ˘X¯—ÍäŸ7‰»ÚΩ1?ä*¸Ãƒ# æ‘ê`®•ñ&•_çû&√[ÛtdS›—]F≤∂Å˜œ[¶r˜÷⁄ûÃâKù<g˛$koo\^/SÆî^	{	ß∑b&“Z#†0∫XÌêNkò‰ ª˜ﬁZv¶£?_¢Åí≥YóI=àGÓ,'é¿Öﬁ›LdÒP=bYWÄd$ÿ„pË.-7ìÕ¿êü£úüˆÒXû’s#B˙B\èÁ⁄÷VEÒ‘–'ü¡U
+SXpﬂl(~{Õ.ö˚¯L•®ö—{g+=ú˘Úıˆ‡ÑF{:•∆€Ë’f˜)—*CÄõ/lly8ú}<ÔxÜÃ#F∫6iö›ªô8s∫M¨4Ø*K sEFª¶˙˘Px9Ä†≠ızÆv—¶rù$–còÇYı´D¸ëÈ∫˛ +ZIdNù÷-êlh9L©héDKƒ˙hﬂ∆%Yq√±πd
+ﬁá~≥Ñü\(ˇ«ΩJ˙$Xm £‹Î√5{æk‹„CÍ_Q ©BÖ«Ü»c2è#S˚íà€_Í∆^úﬂ± k\m-"“i!—LGbb’s 'NoneType'>`
+[2023-02-23 16:09:34,257][Thread-1:8724][task_id:root][views.py:31][ERROR][runoob.html]
+[2023-02-23 16:09:35,561][Thread-1:8724][task_id:root][views.py:32][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 28, in get
+    return render(request, "runoob.html", {"list": ret_list});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: runoob.html
+[2023-02-23 16:09:35,717][Thread-1:8724][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/main/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-23 16:56:50,644][Thread-7:1516][task_id:root][views.py:34][ERROR][Unclosed tag on line 130: 'for'. Looking for one of: empty, endfor.]
+[2023-02-23 16:56:50,645][Thread-7:1516][task_id:root][views.py:35][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\views.py", line 31, in get
+    return render(request, "main.html", {"ret_list": ret_list});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 130: 'for'. Looking for one of: empty, endfor.
+[2023-02-23 16:56:51,082][Thread-7:1516][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/main/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-23 16:58:13,811][Thread-6:4772][task_id:root][views.py:36][ERROR][Unclosed tag on line 130: 'for'. Looking for one of: empty, endfor.]
+[2023-02-23 16:58:13,812][Thread-6:4772][task_id:root][views.py:37][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\views.py", line 33, in get
+    return render(request, "main.html", {"ret_list": ret_list});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 130: 'for'. Looking for one of: empty, endfor.
+[2023-02-23 16:58:14,028][Thread-6:4772][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/main/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-23 16:59:39,594][Thread-6:4772][task_id:root][views.py:36][ERROR][Unclosed tag on line 130: 'for'. Looking for one of: empty, endfor.]
+[2023-02-23 16:59:39,597][Thread-6:4772][task_id:root][views.py:37][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\views.py", line 33, in get
+    return render(request, "main.html", {"ret_list": ret_list});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 130: 'for'. Looking for one of: empty, endfor.
+[2023-02-23 16:59:39,785][Thread-6:4772][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/main/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-24 18:19:31,031][Thread-1:4964][task_id:root][views.py:21][ERROR][[Errno 22] Invalid argument: ':/Project/Server/GdMeta/templates/login.html']
+[2023-02-24 18:19:31,031][Thread-1:4964][task_id:root][views.py:22][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "I:\Project\Server\GdMeta\Logic\views.py", line 19, in get
+    return HttpResponse(content=open(base_dir + "/templates/login.html", encoding='utf-8').read())
+OSError: [Errno 22] Invalid argument: ':/Project/Server/GdMeta/templates/login.html'
+[2023-02-24 18:19:31,145][Thread-1:4964][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/login/]
+Traceback (most recent call last):
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-24 18:20:38,412][Thread-1:4964][task_id:root][views.py:21][ERROR][[Errno 22] Invalid argument: ':/Project/Server/GdMeta/templates/login.html']
+[2023-02-24 18:20:38,412][Thread-1:4964][task_id:root][views.py:22][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "I:\Project\Server\GdMeta\Logic\views.py", line 19, in get
+    return HttpResponse(content=open(base_dir + "/templates/login.html", encoding='utf-8').read())
+OSError: [Errno 22] Invalid argument: ':/Project/Server/GdMeta/templates/login.html'
+[2023-02-24 18:20:38,451][Thread-1:4964][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/login/]
+Traceback (most recent call last):
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-24 21:19:23,326][Thread-2:6512][task_id:root][db_tool.py:47][ERROR][(1054, "Unknown column 'fanruiyuan' in 'field list'")]
+[2023-02-24 21:19:23,327][Thread-1:16624][task_id:root][db_tool.py:47][ERROR][(1054, "Unknown column 'fanruiyuan' in 'field list'")]
+[2023-02-24 21:19:23,328][Thread-2:6512][task_id:root][db_tool.py:48][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 42, in update
+    num = cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'fanruiyuan' in 'field list'")
+[2023-02-24 21:19:23,328][Thread-1:16624][task_id:root][db_tool.py:48][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 42, in update
+    num = cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'fanruiyuan' in 'field list'")
+[2023-02-24 21:28:28,103][Thread-1:4796][task_id:root][db_tool.py:15][ERROR][(1045, "Access denied for user 'root'@'localhost' (using password: YES)")]
+[2023-02-24 21:28:28,104][Thread-1:4796][task_id:root][db_tool.py:16][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 13, in __init__
+    self.db = MySQLdb.connect(host, root, pwd, db_name, charset='utf8')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+[2023-02-24 21:28:28,145][Thread-1:4796][task_id:root][db_tool.py:35][ERROR]['DbTool' object has no attribute 'db']
+[2023-02-24 21:28:28,146][Thread-1:4796][task_id:root][db_tool.py:36][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 21, in select
+    cursor = self.db.cursor()
+AttributeError: 'DbTool' object has no attribute 'db'
+[2023-02-24 21:28:28,147][Thread-1:4796][task_id:root][db_tool.py:56][ERROR]['DbTool' object has no attribute 'db']
+[2023-02-24 21:28:28,147][Thread-1:4796][task_id:root][db_tool.py:57][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+AttributeError: 'DbTool' object has no attribute 'db'
+[2023-02-24 21:28:28,147][Thread-1:4796][task_id:root][auth.py:33][ERROR][list index out of range]
+[2023-02-24 21:28:28,148][Thread-1:4796][task_id:root][auth.py:34][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\auth.py", line 25, in post
+    if result[0] > 0:
+IndexError: list index out of range
+[2023-02-24 21:28:39,177][Thread-1:4796][task_id:root][db_tool.py:47][ERROR][(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''                   'values('fanruiyuan','12345678','18048292379',1,1)' at line 1")]
+[2023-02-24 21:28:39,178][Thread-1:4796][task_id:root][db_tool.py:48][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 42, in update
+    num = cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''                   'values('fanruiyuan','12345678','18048292379',1,1)' at line 1")
+[2023-02-24 21:30:27,318][Thread-1:7504][task_id:root][db_tool.py:47][ERROR][(1054, "Unknown column 'telephone_num' in 'field list'")]
+[2023-02-24 21:30:27,319][Thread-1:7504][task_id:root][db_tool.py:48][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 42, in update
+    num = cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'telephone_num' in 'field list'")
+[2023-02-24 21:31:18,967][Thread-1:10272][task_id:root][db_tool.py:15][ERROR][(1045, "Access denied for user 'root'@'localhost' (using password: YES)")]
+[2023-02-24 21:31:18,968][Thread-1:10272][task_id:root][db_tool.py:16][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 13, in __init__
+    self.db = MySQLdb.connect(host, root, pwd, db_name, charset='utf8')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+[2023-02-24 21:31:18,972][Thread-1:10272][task_id:root][db_tool.py:35][ERROR]['DbTool' object has no attribute 'db']
+[2023-02-24 21:31:18,972][Thread-1:10272][task_id:root][db_tool.py:36][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 21, in select
+    cursor = self.db.cursor()
+AttributeError: 'DbTool' object has no attribute 'db'
+[2023-02-24 21:31:18,973][Thread-1:10272][task_id:root][db_tool.py:56][ERROR]['DbTool' object has no attribute 'db']
+[2023-02-24 21:31:18,974][Thread-1:10272][task_id:root][db_tool.py:57][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+AttributeError: 'DbTool' object has no attribute 'db'
+[2023-02-24 21:31:18,975][Thread-1:10272][task_id:root][auth.py:33][ERROR][list index out of range]
+[2023-02-24 21:31:18,975][Thread-1:10272][task_id:root][auth.py:34][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\auth.py", line 25, in post
+    if result[0] > 0:
+IndexError: list index out of range
+[2023-02-24 21:34:04,576][Thread-1:10272][task_id:root][db_tool.py:15][ERROR][(1045, "Access denied for user 'root'@'localhost' (using password: YES)")]
+[2023-02-24 21:34:04,577][Thread-1:10272][task_id:root][db_tool.py:16][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 13, in __init__
+    self.db = MySQLdb.connect(host, root, pwd, db_name, charset='utf8')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+[2023-02-24 21:34:04,578][Thread-1:10272][task_id:root][db_tool.py:35][ERROR]['DbTool' object has no attribute 'db']
+[2023-02-24 21:34:04,578][Thread-1:10272][task_id:root][db_tool.py:36][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 21, in select
+    cursor = self.db.cursor()
+AttributeError: 'DbTool' object has no attribute 'db'
+[2023-02-24 21:34:04,579][Thread-1:10272][task_id:root][db_tool.py:56][ERROR]['DbTool' object has no attribute 'db']
+[2023-02-24 21:34:04,580][Thread-1:10272][task_id:root][db_tool.py:57][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+AttributeError: 'DbTool' object has no attribute 'db'
+[2023-02-24 21:34:04,581][Thread-1:10272][task_id:root][auth.py:33][ERROR][list index out of range]
+[2023-02-24 21:34:04,582][Thread-1:10272][task_id:root][auth.py:34][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\auth.py", line 25, in post
+    if result[0] > 0:
+IndexError: list index out of range
+[2023-02-24 21:36:10,028][Thread-6:6924][task_id:root][db_tool.py:15][ERROR][(1045, "Access denied for user 'root'@'localhost' (using password: YES)")]
+[2023-02-24 21:36:10,029][Thread-6:6924][task_id:root][db_tool.py:16][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\db_tool.py", line 13, in __init__
+    self.db = MySQLdb.connect(host, root, pwd, db_name, charset='utf8')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+[2023-02-24 21:36:14,189][Thread-6:6924][task_id:root][db_tool.py:35][ERROR]['DbTool' object has no attribute 'db']
+[2023-02-24 21:36:14,191][Thread-6:6924][task_id:root][db_tool.py:36][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\db_tool.py", line 21, in select
+    cursor = self.db.cursor()
+AttributeError: 'DbTool' object has no attribute 'db'
+[2023-02-25 15:46:33,909][Thread-26:7148][task_id:root][fileupload.py:48][ERROR]['NoneType' object has no attribute 'name']
+[2023-02-25 15:46:33,914][Thread-26:7148][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./static/upload', file_obj.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-02-25 15:46:58,509][Thread-26:7148][task_id:root][fileupload.py:48][ERROR]['NoneType' object has no attribute 'name']
+[2023-02-25 15:46:58,509][Thread-26:7148][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./static/upload', file_obj.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-02-25 15:47:52,798][Thread-26:7148][task_id:root][fileupload.py:48][ERROR]['NoneType' object has no attribute 'name']
+[2023-02-25 15:47:52,799][Thread-26:7148][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./static/upload', file_obj.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-02-25 15:48:48,934][Thread-25:2792][task_id:root][fileupload.py:48][ERROR]['NoneType' object has no attribute 'name']
+[2023-02-25 15:48:48,934][Thread-25:2792][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./static/upload', file_obj.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-02-25 15:57:16,628][Thread-36:5624][task_id:root][fileupload.py:48][ERROR]['NoneType' object has no attribute 'name']
+[2023-02-25 15:57:16,629][Thread-36:5624][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./static/upload', file_obj.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-02-25 15:57:21,468][Thread-36:5624][task_id:root][fileupload.py:48][ERROR]['NoneType' object has no attribute 'name']
+[2023-02-25 15:57:21,468][Thread-36:5624][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./static/upload', file_obj.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-02-25 15:59:32,264][Thread-36:5624][task_id:root][fileupload.py:48][ERROR]['NoneType' object has no attribute 'name']
+[2023-02-25 15:59:32,265][Thread-36:5624][task_id:root][fileupload.py:49][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\fileupload.py", line 39, in save_file
+    file_path = os.path.join('./static/upload', file_obj.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-02-25 18:17:12,532][Thread-1:13592][task_id:root][views.py:45][ERROR][[Errno 2] No such file or directory: 'F:/Project/Server/GdMeta/templates/upload.html']
+[2023-02-25 18:17:12,919][Thread-1:13592][task_id:root][views.py:46][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 43, in get
+    return  HttpResponse(content=open(base_dir + "/templates/upload.html", encoding='utf-8').read());
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/Project/Server/GdMeta/templates/upload.html'
+[2023-02-25 18:17:14,709][Thread-1:13592][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/upload/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-25 18:40:32,420][Thread-10:6248][task_id:root][fileupload.py:75][ERROR]['QueryDict' object is not callable]
+[2023-02-25 18:40:32,420][Thread-10:6248][task_id:root][fileupload.py:76][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\fileupload.py", line 43, in save_file
+    moduleDesp = request.POST("moduleDesp");
+TypeError: 'QueryDict' object is not callable
+[2023-02-26 09:02:50,014][Thread-1:12164][task_id:root][fileupload.py:75][ERROR]['QueryDict' object is not callable]
+[2023-02-26 09:02:50,019][Thread-1:12164][task_id:root][fileupload.py:76][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\fileupload.py", line 43, in save_file
+    moduleDesp = request.POST("moduleDesp");
+TypeError: 'QueryDict' object is not callable
+[2023-02-26 20:42:50,394][Thread-6:7576][task_id:root][fileupload.py:125][ERROR][module 'os' has no attribute 'exist']
+[2023-02-26 20:42:50,399][Thread-6:7576][task_id:root][fileupload.py:126][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 118, in save_file
+    createDir('./static/upload/' + module_code);
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 79, in createDir
+    if os.exist(dirPath):
+AttributeError: module 'os' has no attribute 'exist'
+[2023-02-26 20:45:35,294][Thread-6:6660][task_id:root][fileupload.py:125][ERROR][module 'os' has no attribute 'exists']
+[2023-02-26 20:45:35,298][Thread-6:6660][task_id:root][fileupload.py:126][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 118, in save_file
+    createDir('./static/upload/' + module_code);
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 79, in createDir
+    if os.exists(dirPath):
+AttributeError: module 'os' has no attribute 'exists'
+[2023-02-26 21:16:01,658][Thread-6:7932][task_id:root][fileupload.py:122][ERROR]['NoneType' object has no attribute 'strip']
+[2023-02-26 21:16:01,660][Thread-6:7932][task_id:root][fileupload.py:123][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 100, in save_file
+    if author == -1 or moduleName.strip() == "" or moduleTag.strip() == "" or moduleDesp.strip() == "":
+AttributeError: 'NoneType' object has no attribute 'strip'
+[2023-02-26 21:26:11,890][Thread-9:11440][task_id:root][fileupload.py:122][ERROR]['NoneType' object has no attribute 'strip']
+[2023-02-26 21:26:11,891][Thread-9:11440][task_id:root][fileupload.py:123][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 100, in save_file
+    if author == -1 or moduleName.strip() == "" or moduleTag.strip() == "" or moduleDesp.strip() == "":
+AttributeError: 'NoneType' object has no attribute 'strip'
+[2023-02-26 21:27:38,368][Thread-9:11440][task_id:root][fileupload.py:122][ERROR]['NoneType' object has no attribute 'strip']
+[2023-02-26 21:27:38,370][Thread-9:11440][task_id:root][fileupload.py:123][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 100, in save_file
+    if author == -1 or moduleName.strip() == "" or moduleTag.strip() == "" or moduleDesp.strip() == "":
+AttributeError: 'NoneType' object has no attribute 'strip'
+[2023-02-28 10:54:43,310][Thread-12:6868][task_id:root][fileupload.py:122][ERROR]['NoneType' object has no attribute 'strip']
+[2023-02-28 10:54:43,330][Thread-12:6868][task_id:root][fileupload.py:123][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\fileupload.py", line 100, in save_file
+    if author == -1 or moduleName.strip() == "" or moduleTag.strip() == "" or moduleDesp.strip() == "":
+AttributeError: 'NoneType' object has no attribute 'strip'
+[2023-02-28 11:11:12,344][Thread-8:15236][task_id:root][auth.py:35][ERROR][list index out of range]
+[2023-02-28 11:11:12,345][Thread-8:15236][task_id:root][auth.py:36][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\auth.py", line 25, in post
+    if result[0][0] > 0:
+IndexError: list index out of range
+[2023-02-28 11:13:28,382][Thread-8:15236][task_id:root][db_tool.py:47][ERROR][(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1")]
+[2023-02-28 11:13:28,383][Thread-8:15236][task_id:root][db_tool.py:48][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\db_tool.py", line 42, in update
+    num = cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1")
+[2023-02-28 11:16:20,173][Thread-6:9288][task_id:root][db_tool.py:47][ERROR][(1054, "Unknown column 'moudle_code' in 'field list'")]
+[2023-02-28 11:16:20,175][Thread-6:9288][task_id:root][db_tool.py:48][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:/Project/Server/GdMeta\Logic\db_tool.py", line 42, in update
+    num = cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'moudle_code' in 'field list'")
+[2023-02-28 21:32:28,763][Thread-2:13852][task_id:root][views.py:39][ERROR]['datetime.datetime' object has no attribute 'split']
+[2023-02-28 21:32:44,071][Thread-2:13852][task_id:root][views.py:40][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 28, in get
+    self.getModuleInfo();
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 61, in getModuleInfo
+    datetime = item[5].split(' ')[0];
+AttributeError: 'datetime.datetime' object has no attribute 'split'
+[2023-02-28 21:32:49,078][Thread-2:13852][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/main/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-02-28 22:15:17,569][Thread-14:12364][task_id:root][views.py:86][ERROR][loadModule.html]
+[2023-02-28 22:15:17,570][Thread-14:12364][task_id:root][views.py:87][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 83, in get
+    response = render(request, "loadModule.html", {'data': info_dict});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loadModule.html
+[2023-02-28 22:15:17,670][Thread-14:12364][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/loadModule/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-03-01 22:07:52,630][Thread-4:8804][task_id:root][views.py:39][ERROR][Could not parse the remainder: '(',')[0]' from 'item.datetime.split(',')[0]']
+[2023-03-01 22:07:52,634][Thread-4:8804][task_id:root][views.py:40][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 37, in get
+    return render(request, "main.html", {"ret_list": ret_list});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(',')[0]' from 'item.datetime.split(',')[0]'
+[2023-03-01 22:07:52,824][Thread-4:8804][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/main/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-03-03 11:41:18,505][Thread-12:11424][task_id:root][auth.py:35][ERROR][list index out of range]
+[2023-03-03 11:41:18,571][Thread-12:11424][task_id:root][auth.py:36][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\auth.py", line 25, in post
+    if result[0][0] > 0:
+IndexError: list index out of range
+[2023-03-03 15:19:22,583][Thread-1:12512][task_id:root][views.py:39][ERROR][main.html]
+[2023-03-03 15:19:23,733][Thread-1:12512][task_id:root][views.py:40][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 37, in get
+    return render(request, "main.html", {"ret_list": ret_list});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: main.html
+[2023-03-03 15:19:23,875][Thread-1:12512][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/main/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-03-03 15:23:02,273][Thread-1:12512][task_id:root][views.py:39][ERROR][main.html]
+[2023-03-03 15:23:02,274][Thread-1:12512][task_id:root][views.py:40][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 37, in get
+    return render(request, "main.html", {"ret_list": ret_list});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: main.html
+[2023-03-03 15:23:02,338][Thread-1:12512][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/main/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-03-03 20:31:24,860][Thread-7:9436][task_id:root][views.py:39][ERROR][main.html]
+[2023-03-03 20:31:25,575][Thread-7:9436][task_id:root][views.py:40][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 37, in get
+    return render(request, "main.html", {"ret_list": ret_list});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: main.html
+[2023-03-03 20:31:25,733][Thread-7:9436][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/main/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-03-03 21:23:45,128][Thread-8:2516][task_id:root][views.py:92][ERROR][loadModule.html]
+[2023-03-03 21:23:45,129][Thread-8:2516][task_id:root][views.py:93][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "F:\Project\Server\GdMeta\Logic\views.py", line 89, in get
+    response = render(request, "loadModule.html", {'data': info_dict});
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loadModule.html
+[2023-03-03 21:23:45,187][Thread-8:2516][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/loadModule/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-03-04 10:33:29,186][Thread-1:5956][task_id:root][views.py:22][ERROR][[Errno 2] No such file or directory: 'F:/Project/Server/GdMeta/templates/login.html']
+[2023-03-04 10:33:29,186][Thread-1:5956][task_id:root][views.py:23][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "D:\Project\Server\GdMeta\Logic\views.py", line 20, in get
+    return HttpResponse(content=open(base_dir + "/templates/login.html", encoding='utf-8').read())
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/Project/Server/GdMeta/templates/login.html'
+[2023-03-04 10:33:29,460][Thread-1:5956][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/login/]
+Traceback (most recent call last):
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\sangfor\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-03-27 18:49:59,711][Thread-1:12452][task_id:root][views.py:22][ERROR][[Errno 2] No such file or directory: 'D:/Project/Server/GdMeta/templates/login.html']
+[2023-03-27 18:49:59,711][Thread-1:12452][task_id:root][views.py:23][ERROR][‰ªªÂä°ÊâßË°åÈîôËØØ]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\views.py", line 20, in get
+    return HttpResponse(content=open(base_dir + "/templates/login.html", encoding='utf-8').read())
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/Project/Server/GdMeta/templates/login.html'
+[2023-03-27 18:49:59,926][Thread-1:12452][task_id:django.request][log.py:241][ERROR][Internal Server Error: /gdmeta/login/]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
