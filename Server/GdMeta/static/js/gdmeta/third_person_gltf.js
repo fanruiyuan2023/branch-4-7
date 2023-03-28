@@ -129,6 +129,8 @@ function idle_to_walk(){
     runAction.play();
 }
 
+
+
 const onKeyDown = function ( event ) {
     controls.enabled = false;
     pressKey = true;
