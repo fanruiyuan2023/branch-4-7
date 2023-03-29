@@ -51,10 +51,12 @@ class DbTool:
 
     def close(self):
         try:
-            self.db.close()
+            pass
+            #self.db.close()
         except BaseException as e:
             logging.error(str(e))
             logging.error('任务执行错误', exc_info=True)
+
 
     @staticmethod
     def checkParam(param):

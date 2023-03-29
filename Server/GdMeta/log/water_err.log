@@ -1135,3 +1135,3011 @@ Traceback (most recent call last):
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
     assert isinstance(response, HttpResponseBase), (
 AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-03-29 08:59:18,542][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,602][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,610][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,610][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,615][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,615][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,619][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,619][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,624][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,624][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,627][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,628][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,646][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,647][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,650][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,651][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,655][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,655][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,658][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,658][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,662][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,662][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,667][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,668][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,675][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,676][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,679][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,679][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,683][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,684][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,688][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,689][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,692][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,693][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,696][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,696][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,701][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,701][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,705][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,705][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,710][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,710][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,715][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,715][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,720][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,721][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 08:59:18,725][Thread-1:12568][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 08:59:18,726][Thread-1:12568][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,205][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,205][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,211][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,212][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,219][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,219][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,224][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,225][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,232][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,233][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,239][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,240][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,246][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,247][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,252][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,253][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,258][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,258][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,266][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,267][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,289][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,290][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,299][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,299][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,307][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,308][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,314][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,315][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,320][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,321][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,326][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,326][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,332][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,333][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,339][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,340][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,346][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,346][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,353][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,354][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,359][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,359][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,366][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,367][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,372][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,372][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:00:56,377][Thread-2:7424][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:00:56,378][Thread-2:7424][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:22,990][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:22,991][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:22,998][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:22,998][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,003][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,003][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,008][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,009][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,016][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,016][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,021][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,022][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,031][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,032][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,037][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,037][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,043][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,044][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,050][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,051][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,055][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,056][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,064][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,065][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,076][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,077][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,083][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,084][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,089][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,090][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,096][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,096][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,100][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,101][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,104][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,105][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,108][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,109][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,114][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,114][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,120][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,120][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,125][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,126][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,132][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,133][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:01:23,138][Thread-8:13240][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:01:23,138][Thread-8:13240][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,562][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,562][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,566][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,567][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,571][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,571][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,575][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,576][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,580][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,580][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,584][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,585][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,589][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,589][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,593][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,593][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,597][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,598][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,601][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,601][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,605][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,606][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,611][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,612][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,620][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,621][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,626][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,626][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,631][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,632][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,637][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,637][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,642][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,643][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,648][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,648][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,653][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,654][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,658][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,658][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,663][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,664][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,668][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,669][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,674][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,674][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:55,678][Thread-1:4888][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:55,678][Thread-1:4888][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,797][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,798][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,803][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,803][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,807][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,808][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,811][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,812][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,816][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,816][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,819][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,820][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,823][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,824][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,827][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,827][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,831][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,831][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,835][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,835][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,839][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,839][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,843][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,843][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,849][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,850][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,853][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,854][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,858][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,858][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,861][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,862][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,865][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,865][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,868][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,869][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,873][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,874][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,878][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,878][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,881][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,882][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,885][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,885][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,889][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,889][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:18:58,893][Thread-3:12068][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:18:58,893][Thread-3:12068][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,266][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,267][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,272][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,273][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,278][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,278][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,283][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,284][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,288][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,288][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,292][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,293][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,297][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,297][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,301][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,301][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,305][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,305][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,309][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,309][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,312][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,312][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,316][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,316][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,322][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,322][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,326][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,327][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,330][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,330][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,334][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,334][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,337][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,338][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,341][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,341][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,345][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,346][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,349][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,349][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,353][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,353][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,356][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,357][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,360][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,360][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:21:28,363][Thread-2:11616][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:21:28,364][Thread-2:11616][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,455][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,456][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,460][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,461][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,465][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,465][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,470][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,471][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,477][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,478][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,482][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,483][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,488][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,489][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,494][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,495][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,499][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,500][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,505][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,505][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,511][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,512][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,517][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,518][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,531][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,532][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,538][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,538][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,545][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,545][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,550][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,551][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,558][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,559][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,567][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,567][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,573][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,574][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,580][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,580][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,586][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,587][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,593][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,594][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,600][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,601][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:06,610][Thread-3:7000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:06,611][Thread-3:7000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,507][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,507][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,510][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,510][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,514][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,514][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,518][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,518][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,521][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,522][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,526][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,526][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,530][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,530][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,533][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,534][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,537][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,537][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,541][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,541][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,545][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,545][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,549][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,549][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,556][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,556][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,560][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,560][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,563][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,564][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,567][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,567][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,571][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,571][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,575][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,575][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,579][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,580][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,583][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,584][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,588][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,588][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,592][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,592][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,596][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,596][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:22:26,600][Thread-5:6836][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:22:26,601][Thread-5:6836][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:48,215][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:49,324][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,242][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,243][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,256][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,257][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,266][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,267][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,275][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,276][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,286][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,287][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,292][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,293][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,299][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,300][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,307][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,308][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,315][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,315][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,320][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,321][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,328][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,329][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,338][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,338][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,344][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,345][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,353][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,354][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,363][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,364][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,403][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,404][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,410][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,411][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,416][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,417][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,422][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,423][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,430][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,430][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,435][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,436][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,442][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,443][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:25:51,448][Thread-6:12768][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:25:51,449][Thread-6:12768][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,747][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,748][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,753][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,754][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,758][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,759][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,763][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,764][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,769][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,770][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,775][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,775][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,780][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,780][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,785][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,785][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,790][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,791][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,796][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,797][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,801][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,802][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,806][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,807][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,816][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,817][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,821][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,822][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,826][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,827][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,831][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,831][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,836][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,837][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,842][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,843][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,847][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,848][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,852][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,853][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,858][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,859][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,863][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,864][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,868][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,868][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:01,874][Thread-11:8116][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:01,874][Thread-11:8116][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:27,940][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:27,941][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:27,949][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:27,950][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:27,956][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:27,957][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:27,963][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:27,965][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:27,972][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:27,973][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:27,980][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:27,981][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:27,988][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:27,989][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:27,996][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:27,997][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,003][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,004][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,010][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,011][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,018][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,019][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,031][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,032][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,046][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,047][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,055][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,057][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,064][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,065][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,072][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,073][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,081][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,082][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,089][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,090][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,097][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,098][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,104][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,106][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,113][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,114][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,121][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,122][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,130][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,131][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 09:26:28,137][Thread-13:8708][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 09:26:28,138][Thread-13:8708][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,620][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,642][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,691][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,692][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,698][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,698][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,704][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,705][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,712][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,712][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,719][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,720][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,727][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,727][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,733][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,734][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,740][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,741][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,747][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,748][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,755][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,756][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,771][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,771][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,787][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,787][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,804][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,804][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,811][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,812][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,817][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,818][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,826][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,826][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,832][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,833][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,840][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,840][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,848][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,848][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,854][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,855][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,862][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,863][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,869][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,870][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 10:20:29,878][Thread-1:6332][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 10:20:29,879][Thread-1:6332][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,096][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,097][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,108][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,108][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,114][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,115][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,122][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,124][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,129][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,130][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,134][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,134][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,139][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,139][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,144][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,145][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,149][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,149][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,154][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,154][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,160][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,160][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,167][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,168][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,179][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,179][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,184][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,185][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,190][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,190][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,195][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,195][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,200][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,200][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,205][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,206][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,211][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,211][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,215][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,216][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,220][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,221][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,251][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,252][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,260][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,261][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:01:53,273][Thread-6:8700][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:01:53,275][Thread-6:8700][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,313][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,314][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,320][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,320][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,325][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,325][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,331][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,332][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,338][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,338][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,345][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,346][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,354][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,355][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,359][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,360][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,364][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,365][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,369][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,370][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,375][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,376][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,380][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,381][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,389][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,390][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,396][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,396][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,401][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,402][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,407][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,408][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,414][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,415][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,421][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,421][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,427][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,428][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,434][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,434][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,441][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,442][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,447][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,448][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,455][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,456][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:02:39,461][Thread-12:9832][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:02:39,462][Thread-12:9832][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:/Projects/Server/GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,720][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,721][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,727][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,728][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,733][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,734][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,740][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,741][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,747][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,747][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,752][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,753][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,762][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,763][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,772][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,773][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,780][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,780][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,787][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,787][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,793][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,794][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,806][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,807][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,817][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,818][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,830][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,831][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,837][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,838][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,845][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,846][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,852][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,852][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,857][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,858][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,868][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,869][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,873][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,873][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,878][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,878][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,885][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,886][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,891][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,891][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:43,895][Thread-1:4140][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:43,895][Thread-1:4140][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,757][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,757][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,761][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,762][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,766][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,766][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,771][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,772][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,775][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,776][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,779][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,780][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,784][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,784][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,787][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,788][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,792][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,792][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,796][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,796][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,800][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,801][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,804][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,805][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,813][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,813][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,816][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,817][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,821][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,821][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,826][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,827][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,831][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,831][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,835][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,835][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,839][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,839][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,842][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,843][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,846][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,846][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,850][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,850][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,854][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,854][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:50,858][Thread-4:9088][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:05:50,859][Thread-4:9088][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:05:53,959][Thread-6:876][task_id:root][remark.py:60][ERROR]['ramarks']
+[2023-03-29 11:05:53,959][Thread-6:876][task_id:root][remark.py:61][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 56, in post
+    ret["ramarks"].append(temp);
+KeyError: 'ramarks'
+[2023-03-29 11:06:27,235][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,236][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,242][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,242][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,248][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,249][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,254][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,255][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,260][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,261][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,267][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,268][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,273][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,274][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,403][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,403][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,409][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,409][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,417][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,422][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,427][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,428][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,434][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,435][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,457][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,458][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,470][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,471][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,564][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,565][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,570][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,571][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,581][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,582][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,587][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,588][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,594][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,595][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,602][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,603][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,634][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,634][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,641][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,642][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,646][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,647][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:27,651][Thread-1:5000][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:27,652][Thread-1:5000][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:06:30,466][Thread-4:4856][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:06:30,466][Thread-4:4856][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,917][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:02,918][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,922][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:02,923][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,928][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:02,928][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,932][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:02,933][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,937][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:02,937][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,942][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:02,942][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,948][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:02,949][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,953][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:02,954][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,959][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:02,959][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,965][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:02,965][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,970][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:02,970][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,975][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:02,975][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,982][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:02,983][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,987][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:02,988][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,991][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:02,992][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,995][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:02,996][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:02,999][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:03,000][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:03,004][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:03,005][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:03,009][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:03,009][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:03,013][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:03,013][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:03,017][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:03,017][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:03,021][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:03,021][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:03,026][Thread-1:12428][task_id:root][dianzan.py:74][ERROR][(2006, '')]
+[2023-03-29 11:08:03,026][Thread-1:12428][task_id:root][dianzan.py:75][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\dianzan.py", line 71, in getZanNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:03,031][Thread-1:12428][task_id:root][remark.py:81][ERROR][(2006, '')]
+[2023-03-29 11:08:03,031][Thread-1:12428][task_id:root][remark.py:82][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 78, in getRemarkNum
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:08,326][Thread-4:11712][task_id:root][remark.py:60][ERROR][(2006, '')]
+[2023-03-29 11:08:08,326][Thread-4:11712][task_id:root][remark.py:61][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 57, in post
+    db.close()
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 53, in close
+    self.db.close();
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:35,991][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:35,991][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:35,997][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:35,998][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,002][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,003][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,008][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,009][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,014][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,014][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,019][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,019][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,024][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,025][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,030][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,030][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,036][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,036][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,041][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,042][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,047][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,047][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,052][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,053][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,063][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,063][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,069][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,070][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,077][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,077][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,082][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,083][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,088][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,088][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,095][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,095][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,100][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,101][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,106][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,106][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,112][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,112][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,117][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,118][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,122][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,123][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:36,127][Thread-2:12304][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:36,128][Thread-2:12304][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 11:08:38,890][Thread-6:5604][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 11:08:38,891][Thread-6:5604][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,311][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,312][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,319][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,319][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,323][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,324][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,329][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,329][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,336][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,337][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,341][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,341][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,345][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,345][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,351][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,351][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,357][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,357][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,361][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,361][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,365][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,365][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,371][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,372][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,379][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,380][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,383][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,383][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,387][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,387][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,393][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,394][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,399][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,399][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,402][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,403][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,406][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,407][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,412][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,412][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,417][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,418][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,421][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,421][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,424][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,425][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:41:04,428][Thread-1:13188][task_id:root][db_tool.py:56][ERROR][(2006, '')]
+[2023-03-29 13:41:04,429][Thread-1:13188][task_id:root][db_tool.py:57][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 54, in close
+    self.db.close()
+MySQLdb._exceptions.OperationalError: (2006, '')
+[2023-03-29 13:46:53,467][Thread-4:8148][task_id:root][remark.py:61][ERROR]['status']
+[2023-03-29 13:46:53,468][Thread-4:8148][task_id:root][remark.py:62][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 57, in post
+    ret["status"] == "success";
+KeyError: 'status'
+[2023-03-29 13:46:59,521][Thread-7:4564][task_id:root][remark.py:61][ERROR]['status']
+[2023-03-29 13:46:59,521][Thread-7:4564][task_id:root][remark.py:62][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 57, in post
+    ret["status"] == "success";
+KeyError: 'status'
+[2023-03-29 13:47:12,889][Thread-9:8016][task_id:root][remark.py:61][ERROR]['status']
+[2023-03-29 13:47:12,889][Thread-9:8016][task_id:root][remark.py:62][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\remark.py", line 57, in post
+    ret["status"] == "success";
+KeyError: 'status'
+[2023-03-29 16:05:31,737][Thread-144:11652][task_id:root][db_tool.py:47][ERROR][(1054, "Unknown column 'None' in 'field list'")]
+[2023-03-29 16:05:31,738][Thread-144:11652][task_id:root][db_tool.py:48][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 42, in update
+    num = cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'None' in 'field list'")
+[2023-03-29 16:05:38,866][Thread-148:6076][task_id:root][db_tool.py:47][ERROR][(1054, "Unknown column 'None' in 'field list'")]
+[2023-03-29 16:05:38,867][Thread-148:6076][task_id:root][db_tool.py:48][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 42, in update
+    num = cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'None' in 'field list'")
+[2023-03-29 16:40:14,512][Thread-15:12332][task_id:root][db_tool.py:47][ERROR][(1054, "Unknown column 'None' in 'field list'")]
+[2023-03-29 16:40:14,512][Thread-15:12332][task_id:root][db_tool.py:48][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 42, in update
+    num = cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'None' in 'field list'")

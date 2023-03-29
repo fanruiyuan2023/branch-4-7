@@ -5,7 +5,8 @@ from .views import *
 from .auth import *
 from .fileupload import *
 from .register import *
-
+from .dianzan import *
+from .remark import *
 
 urlpatterns = [
 
@@ -17,6 +18,12 @@ urlpatterns = [
     url(r'^filesubmit/$', FileUpload.as_view(), name='gdmeta'),
     url(r'^loadModule/$', ModulePage.as_view(), name='gdmeta'),
     url(r'^userRegister/$', Register.as_view(), name='gdmeta'),
+    url(r'^dianzan/$', SubmitDianzan.as_view(), name='gdmeta'),
+    url(r'^submitRemark/$', SubmitRemark.as_view(), name='gdmeta'),
+    url(r'^getRemark/$', GetRemarkInfo.as_view(), name='gdmeta'),
+
+
+
 
 
 ]
