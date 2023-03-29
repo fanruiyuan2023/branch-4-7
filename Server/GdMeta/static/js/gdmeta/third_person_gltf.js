@@ -13,6 +13,9 @@ var controls = null;
 
 var pressKey = false;
 
+var speed = 3;
+var rotate_speed = 30;
+
 var third_player_modele_path = "/static/modules/Xbot.glb";
 
 function third_person_gltf_setparames(t_scene, t_camera, t_controls){
@@ -27,7 +30,7 @@ function third_person_gltf_setparames(t_scene, t_camera, t_controls){
 function third_person_gltf_init(){
     document.addEventListener( 'keydown', onKeyDown );
     document.addEventListener( 'keyup', onKeyUp );
-    createGrass();
+    //createGrass();
     load_module();
 }
 
@@ -48,6 +51,10 @@ function load_module(){
         walkAction = mixer.clipAction( animations[ 3 ] );
         runAction = mixer.clipAction( animations[ 6 ] );
 
+        idleAction.play();
+        walkAction.play();
+        runAction.play();
+
         third_person_gltf_tick();
     })
 
@@ -63,8 +70,8 @@ function camera_follow(){
     if(third_player != null && pressKey == true){
 
         var x = third_player.position.x;
-        var y = third_player.position.y + 5;
-        var z = third_player.position.z + 6;
+        var y = third_player.position.y + 2;
+        var z = third_player.position.z + 2;
         third_carame.position.set(x, y, z);
         //third_carame.lookAt(third_player);
     }else{
@@ -111,9 +118,11 @@ function walk_to_idle(){
     setWeight(idleAction, 1);
     setWeight(walkAction, 0);
     setWeight(runAction, 0);
+    /*
     idleAction.play();
     walkAction.play();
     runAction.play();
+    */
 }
 
 function walk_to_run(){
@@ -124,10 +133,13 @@ function idle_to_walk(){
     setWeight(idleAction, 0);
     setWeight(walkAction, 1);
     setWeight(runAction, 0);
+    /*
     idleAction.play();
     walkAction.play();
     runAction.play();
+    */
 }
+
 
 
 
@@ -139,27 +151,30 @@ const onKeyDown = function ( event ) {
         case 'ArrowUp':
         case 'KeyW':
             //moveForward = true;
-            third_player.position.x += -0.1;
+            //third_player.position.x += -0.1;
+            third_player.translateZ (speed * clock.getDelta());
             idle_to_walk();
             break;
 
         case 'ArrowLeft':
         case 'KeyA':
             //moveLeft = true;
-            third_player.rotateOnAxis(new THREE.Vector3(0, 1, 0), 1);
+
+            third_player.rotateOnAxis(new THREE.Vector3(0, 1, 0), rotate_speed*clock.getDelta());
             break;
 
         case 'ArrowDown':
         case 'KeyS':
             //moveBackward = true;
-            third_player.position.x += -0.1;
+            //third_player.position.x += -0.1;
+            third_player.translateZ (-speed* clock.getDelta());
             idle_to_walk();
             break;
 
         case 'ArrowRight':
         case 'KeyD':
             //moveRight = true;
-            third_player.rotateOnAxis(new THREE.Vector3(0, 1, 0), -1);
+            third_player.rotateOnAxis(new THREE.Vector3(0, 1, 0), -rotate_speed*clock.getDelta());
             break;
 
         case 'Space':
