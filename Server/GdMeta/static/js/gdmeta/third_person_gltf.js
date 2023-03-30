@@ -16,6 +16,9 @@ var pressKey = false;
 var speed = 3;
 var rotate_speed = 30;
 
+var last_behavior = "idle";
+var curr_behavior = "idle";
+
 var third_player_modele_path = "/static/modules/Xbot.glb";
 
 function third_person_gltf_setparames(t_scene, t_camera, t_controls){
@@ -48,9 +51,11 @@ function load_module(){
         const animations = gltf.animations;
         mixer = new THREE.AnimationMixer( third_player );
         idleAction = mixer.clipAction( animations[ 2 ] );
-        walkAction = mixer.clipAction( animations[ 3 ] );
-        runAction = mixer.clipAction( animations[ 6 ] );
-
+        walkAction = mixer.clipAction( animations[ 6 ] );
+        runAction = mixer.clipAction( animations[ 3 ] );
+        setWeight(idleAction, 1);
+        setWeight(walkAction, 0);
+        setWeight(runAction, 0);
         idleAction.play();
         walkAction.play();
         runAction.play();
@@ -87,14 +92,14 @@ function third_person_gltf_tick(){
     }else{
         console.log("mixer is null...")
     }
-
-    camera_follow();
+    behavior();
+    //camera_follow();
 }
 
 
 function createGrass() {
 
-  const geometry = new THREE.PlaneGeometry(10000, 10000);
+  const geometry = new THREE.PlaneGeometry(1000, 1000);
 
   const texture = new THREE.TextureLoader().load("/static/images/grasslight-big.jpg");
   texture.wrapS = THREE.RepeatWrapping;
@@ -115,14 +120,12 @@ function createGrass() {
 
 
 function walk_to_idle(){
+    //walkAction.corssFadeTo(idleAction,1,false);
     setWeight(idleAction, 1);
     setWeight(walkAction, 0);
     setWeight(runAction, 0);
-    /*
-    idleAction.play();
-    walkAction.play();
-    runAction.play();
-    */
+
+
 }
 
 function walk_to_run(){
@@ -130,14 +133,11 @@ function walk_to_run(){
 }
 
 function idle_to_walk(){
+    //idleAction.crossFadeTo(walkAction,1,false);
     setWeight(idleAction, 0);
     setWeight(walkAction, 1);
     setWeight(runAction, 0);
-    /*
-    idleAction.play();
-    walkAction.play();
-    runAction.play();
-    */
+
 }
 
 
@@ -153,7 +153,8 @@ const onKeyDown = function ( event ) {
             //moveForward = true;
             //third_player.position.x += -0.1;
             third_player.translateZ (speed * clock.getDelta());
-            idle_to_walk();
+            //idle_to_walk();
+            curr_behavior = "walk";
             break;
 
         case 'ArrowLeft':
@@ -168,7 +169,8 @@ const onKeyDown = function ( event ) {
             //moveBackward = true;
             //third_player.position.x += -0.1;
             third_player.translateZ (-speed* clock.getDelta());
-            idle_to_walk();
+            //idle_to_walk();
+            curr_behavior = "walk";
             break;
 
         case 'ArrowRight':
@@ -193,7 +195,8 @@ const onKeyUp = function ( event ) {
         case 'ArrowUp':
         case 'KeyW':
             //moveForward = false;
-            walk_to_idle();
+            //walk_to_idle();
+            curr_behavior = "idle";
             break;
 
         case 'ArrowLeft':
@@ -204,7 +207,8 @@ const onKeyUp = function ( event ) {
         case 'ArrowDown':
         case 'KeyS':
             //moveBackward = false;
-            walk_to_idle();
+            //walk_to_idle();
+            curr_behavior = "idle";
             break;
 
         case 'ArrowRight':
@@ -214,5 +218,17 @@ const onKeyUp = function ( event ) {
     }
 
 };
+
+function behavior(){
+    if(last_behavior != curr_behavior){
+        if(last_behavior == "idle" && curr_behavior == "walk"){
+            idle_to_walk();
+        }
+        if(last_behavior == "walk" && curr_behavior == "idle"){
+            walk_to_idle();
+        }
+    }
+    last_behavior = curr_behavior;
+}
 
 export { third_person_gltf_setparames,  third_person_gltf_tick};

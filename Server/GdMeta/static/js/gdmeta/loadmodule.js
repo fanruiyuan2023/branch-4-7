@@ -99,7 +99,9 @@
         // 鼠标操作
         const controls = new OrbitControls(camera,renderer.domElement);//创建控件对
 
-        camera.position.z = 5;
+        camera.position.z = -3;
+        camera.position.y = 2;
+        camera.lookAt(new THREE.Vector3(0,0,0));
 
         //////////////////////////////////////////////
         // 加载第三人称

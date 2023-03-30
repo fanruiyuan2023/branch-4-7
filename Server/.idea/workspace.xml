@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b66eb7-ab02-47f2-82a0-6e3824791035" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/images/grasslight-big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/images/zan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/images/zan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/upload/CZDuhxLbVw8nVHaAId9vsX7ux4oHAWx2/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/upload/CZDuhxLbVw8nVHaAId9vsX7ux4oHAWx2/module.glb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/db.sqlite3" afterPath="$PROJECT_DIR$/GdMeta/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/log/water_info.log" afterPath="$PROJECT_DIR$/GdMeta/log/water_info.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/static/js/gdmeta/loadmodule.js" afterPath="$PROJECT_DIR$/GdMeta/static/js/gdmeta/loadmodule.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js" afterPath="$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +33,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="225" column="10" lean-forward="true" selection-start-line="225" selection-start-column="10" selection-end-line="225" selection-end-column="10" />
+            <state relative-caret-position="4275">
+              <caret line="225" column="10" lean-forward="false" selection-start-line="225" selection-start-column="10" selection-end-line="225" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -50,18 +45,18 @@
       <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/static/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="874">
+              <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="third_person_gltf.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="third_person_gltf.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -70,8 +65,8 @@
       <file leaf-file-name="login_jupiter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/templates/login_jupiter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+            <state relative-caret-position="3040">
+              <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -84,8 +79,8 @@
       <file leaf-file-name="loadModule.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/templates/loadModule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="94" column="12" lean-forward="true" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
+            <state relative-caret-position="-209">
+              <caret line="91" column="47" lean-forward="true" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -93,10 +88,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="loadmodule.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GdMeta/static/js/gdmeta/loadmodule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="97" column="51" lean-forward="false" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/Logic/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="399">
               <caret line="33" column="114" lean-forward="false" selection-start-line="33" selection-start-column="114" selection-end-line="33" selection-end-column="114" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -108,8 +113,8 @@
       <file leaf-file-name="auth.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/Logic/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+            <state relative-caret-position="703">
+              <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -122,16 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jupiter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GdMeta/static/js/jupiter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4579">
-              <caret line="241" column="27" lean-forward="false" selection-start-line="241" selection-start-column="27" selection-end-line="241" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -166,13 +161,16 @@
       <find>loadModule</find>
       <find>scene</find>
       <find>mixer</find>
-      <find>camera</find>
       <find>tick</find>
       <find>clock</find>
       <find>closeRemarkDlg</find>
       <find>fullscr</find>
       <find>particlesJS</find>
       <find>about</find>
+      <find>camera_follow</find>
+      <find>createGrass</find>
+      <find>camera</find>
+      <find>look</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,7 +199,6 @@
         <option value="$PROJECT_DIR$/GdMeta/Logic/auth.py" />
         <option value="$PROJECT_DIR$/GdMeta/templates/login.html" />
         <option value="$PROJECT_DIR$/参考资料" />
-        <option value="$PROJECT_DIR$/GdMeta/static/js/gdmeta/loadmodule.js" />
         <option value="$PROJECT_DIR$/GdMeta/Logic/dianzan.py" />
         <option value="$PROJECT_DIR$/GdMeta/Logic/db_tool.py" />
         <option value="$PROJECT_DIR$/GdMeta/Logic/remark.py" />
@@ -214,6 +211,7 @@
         <option value="$PROJECT_DIR$/GdMeta/templates/main.html" />
         <option value="$PROJECT_DIR$/GdMeta/static/css/login.css" />
         <option value="$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js" />
+        <option value="$PROJECT_DIR$/GdMeta/static/js/gdmeta/loadmodule.js" />
       </list>
     </option>
   </component>
@@ -239,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -446,7 +445,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -697,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680138228321</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="常规提交">
+      <created>1680138971983</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680138971983</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -708,7 +713,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2097489" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3028065" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29542097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1000,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GdMeta/static/js/gdmeta/loadmodule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="98" column="15" lean-forward="false" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/Logic/register.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1042,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,28 +1072,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/Logic/auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="703">
+          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GdMeta/templates/loadModule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="94" column="12" lean-forward="true" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/templates/login_jupiter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+        <state relative-caret-position="3040">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1107,7 +1094,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/Logic/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="399">
           <caret line="33" column="114" lean-forward="false" selection-start-line="33" selection-start-column="114" selection-end-line="33" selection-end-column="114" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
@@ -1117,8 +1104,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="225" column="10" lean-forward="true" selection-start-line="225" selection-start-column="10" selection-end-line="225" selection-end-column="10" />
+        <state relative-caret-position="4275">
+          <caret line="225" column="10" lean-forward="false" selection-start-line="225" selection-start-column="10" selection-end-line="225" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1127,16 +1114,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/static/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="874">
+          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GdMeta/templates/loadModule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="91" column="47" lean-forward="true" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GdMeta/static/js/gdmeta/loadmodule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="97" column="51" lean-forward="false" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
           <folding />
         </state>
       </provider>
