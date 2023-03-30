@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b66eb7-ab02-47f2-82a0-6e3824791035" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/js/jupiter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/js/three.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/templates/login_jupiter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/db.sqlite3" afterPath="$PROJECT_DIR$/GdMeta/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/templates/loadModule.html" afterPath="$PROJECT_DIR$/GdMeta/templates/loadModule.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/Logic/views.py" afterPath="$PROJECT_DIR$/GdMeta/Logic/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/log/water_info.log" afterPath="$PROJECT_DIR$/GdMeta/log/water_info.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/static/css/login.css" afterPath="$PROJECT_DIR$/GdMeta/static/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/templates/login_jupiter.html" afterPath="$PROJECT_DIR$/GdMeta/templates/login_jupiter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/templates/main.html" afterPath="$PROJECT_DIR$/GdMeta/templates/main.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +36,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3173">
-              <caret line="167" column="52" lean-forward="false" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="52" />
+            <state relative-caret-position="167">
+              <caret line="225" column="10" lean-forward="true" selection-start-line="225" selection-start-column="10" selection-end-line="225" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -44,21 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GdMeta/static/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="294">
+              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_jupiter.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login_jupiter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/templates/login_jupiter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="144" column="37" lean-forward="true" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
+            <state relative-caret-position="195">
+              <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -83,8 +84,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/Logic/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="81" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="81" />
+            <state relative-caret-position="228">
+              <caret line="33" column="114" lean-forward="false" selection-start-line="33" selection-start-column="114" selection-end-line="33" selection-end-column="114" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -169,6 +170,7 @@
       <find>closeRemarkDlg</find>
       <find>fullscr</find>
       <find>particlesJS</find>
+      <find>about</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,13 +205,13 @@
         <option value="$PROJECT_DIR$/GdMeta/Logic/db_tool.py" />
         <option value="$PROJECT_DIR$/GdMeta/Logic/remark.py" />
         <option value="$PROJECT_DIR$/GdMeta/Logic/urls.py" />
-        <option value="$PROJECT_DIR$/GdMeta/templates/main.html" />
-        <option value="$PROJECT_DIR$/GdMeta/Logic/views.py" />
         <option value="$PROJECT_DIR$/GdMeta/static/js/jupiter.js" />
-        <option value="$PROJECT_DIR$/GdMeta/static/css/login.css" />
         <option value="$PROJECT_DIR$/GdMeta/static/css/jupiter.css" />
-        <option value="$PROJECT_DIR$/GdMeta/templates/login_jupiter.html" />
         <option value="$PROJECT_DIR$/GdMeta/templates/loadModule.html" />
+        <option value="$PROJECT_DIR$/GdMeta/templates/login_jupiter.html" />
+        <option value="$PROJECT_DIR$/GdMeta/Logic/views.py" />
+        <option value="$PROJECT_DIR$/GdMeta/templates/main.html" />
+        <option value="$PROJECT_DIR$/GdMeta/static/css/login.css" />
       </list>
     </option>
   </component>
@@ -631,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680137111883</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="常规提交">
+      <created>1680137616192</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680137616192</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -682,7 +691,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/GdMeta/Logic/views.py</url>
-          <line>46</line>
+          <line>47</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -960,7 +969,7 @@
         <state relative-caret-position="247">
           <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
-            <element signature="e#1#12#0" expanded="true" />
+            <element signature="e#1#12#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1006,39 +1015,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GdMeta/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3173">
-          <caret line="167" column="52" lean-forward="false" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GdMeta/static/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/static/css/jupiter.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GdMeta/Logic/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="81" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="81" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,13 +1045,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/templates/login_jupiter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="144" column="37" lean-forward="true" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
+        <state relative-caret-position="195">
+          <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#1354#1361#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GdMeta/Logic/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" column="114" lean-forward="false" selection-start-line="33" selection-start-column="114" selection-end-line="33" selection-end-column="114" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GdMeta/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="225" column="10" lean-forward="true" selection-start-line="225" selection-start-column="10" selection-end-line="225" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GdMeta/static/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

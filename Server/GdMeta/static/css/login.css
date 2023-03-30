@@ -48,6 +48,7 @@ position: fixed;
 
 .logcon button {
 	padding: 7px 20px 10px 20px;
+	height:40px;
 	border: none;
 	background: #fff;
 	border-radius: 3px;
