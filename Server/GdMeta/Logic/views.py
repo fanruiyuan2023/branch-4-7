@@ -19,7 +19,8 @@ class Login(APIView):
     def get(self, request, *args, **kwargs):
         try:
             logging.info('Login is called...');
-            return HttpResponse(content=open(base_dir + "/templates/login.html", encoding='utf-8').read())
+            #return HttpResponse(content=open(base_dir + "/templates/login.html", encoding='utf-8').read())
+            return HttpResponse(content=open(base_dir + "/templates/login_jupiter.html", encoding='utf-8').read())
         except BaseException as e:
             logging.error(str(e))
             logging.error('任务执行错误', exc_info=True)
