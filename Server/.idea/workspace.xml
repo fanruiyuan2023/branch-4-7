@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b66eb7-ab02-47f2-82a0-6e3824791035" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/images/grasslight-big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/images/zan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/images/zan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/upload/CZDuhxLbVw8nVHaAId9vsX7ux4oHAWx2/image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GdMeta/static/upload/CZDuhxLbVw8nVHaAId9vsX7ux4oHAWx2/module.glb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/db.sqlite3" afterPath="$PROJECT_DIR$/GdMeta/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/Logic/views.py" afterPath="$PROJECT_DIR$/GdMeta/Logic/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/log/water_info.log" afterPath="$PROJECT_DIR$/GdMeta/log/water_info.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/static/css/login.css" afterPath="$PROJECT_DIR$/GdMeta/static/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/templates/login_jupiter.html" afterPath="$PROJECT_DIR$/GdMeta/templates/login_jupiter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/templates/main.html" afterPath="$PROJECT_DIR$/GdMeta/templates/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js" afterPath="$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GdMeta/static/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="256">
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="third_person_gltf.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,16 +137,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GdMeta/Logic/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -200,7 +202,6 @@
         <option value="$PROJECT_DIR$/GdMeta/templates/login.html" />
         <option value="$PROJECT_DIR$/参考资料" />
         <option value="$PROJECT_DIR$/GdMeta/static/js/gdmeta/loadmodule.js" />
-        <option value="$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js" />
         <option value="$PROJECT_DIR$/GdMeta/Logic/dianzan.py" />
         <option value="$PROJECT_DIR$/GdMeta/Logic/db_tool.py" />
         <option value="$PROJECT_DIR$/GdMeta/Logic/remark.py" />
@@ -212,6 +213,7 @@
         <option value="$PROJECT_DIR$/GdMeta/Logic/views.py" />
         <option value="$PROJECT_DIR$/GdMeta/templates/main.html" />
         <option value="$PROJECT_DIR$/GdMeta/static/css/login.css" />
+        <option value="$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js" />
       </list>
     </option>
   </component>
@@ -332,6 +334,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GdMeta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gdmeta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GdMeta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -640,7 +690,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680137616192</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="常规提交">
+      <created>1680138228321</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680138228321</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -936,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/Logic/LoadModule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1077,8 +1127,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GdMeta/static/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="256">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GdMeta/static/js/gdmeta/third_person_gltf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -30,7 +30,7 @@ function third_person_gltf_setparames(t_scene, t_camera, t_controls){
 function third_person_gltf_init(){
     document.addEventListener( 'keydown', onKeyDown );
     document.addEventListener( 'keyup', onKeyUp );
-    //createGrass();
+    createGrass();
     load_module();
 }
 
@@ -96,11 +96,11 @@ function createGrass() {
 
   const geometry = new THREE.PlaneGeometry(10000, 10000);
 
-  const texture = new THREE.TextureLoader().load("/static/images/grass.jpeg");
+  const texture = new THREE.TextureLoader().load("/static/images/grasslight-big.jpg");
   texture.wrapS = THREE.RepeatWrapping;
   texture.wrapT = THREE.RepeatWrapping;
 
-  texture.repeat.set(100, 100);
+  texture.repeat.set(10, 10);
 
   const grassMaterial = new THREE.MeshBasicMaterial({ map: texture });
 
