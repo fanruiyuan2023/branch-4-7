@@ -14,10 +14,15 @@ var controls = null;
 var pressKey = false;
 
 var speed = 3;
-var rotate_speed = 30;
+var rotate_speed = 10;
 
 var last_behavior = "idle";
 var curr_behavior = "idle";
+
+var moveForward = false;
+var moveBackward = false;
+var moveLeft = false;
+var moveRight = false;
 
 var third_player_modele_path = "/static/modules/Xbot.glb";
 
@@ -150,7 +155,7 @@ const onKeyDown = function ( event ) {
 
         case 'ArrowUp':
         case 'KeyW':
-            //moveForward = true;
+            moveForward = true;
             //third_player.position.x += -0.1;
             third_player.translateZ (speed * clock.getDelta());
             //idle_to_walk();
@@ -159,14 +164,14 @@ const onKeyDown = function ( event ) {
 
         case 'ArrowLeft':
         case 'KeyA':
-            //moveLeft = true;
-
+            moveLeft = true;
+            curr_behavior = "turn_left";
             third_player.rotateOnAxis(new THREE.Vector3(0, 1, 0), rotate_speed*clock.getDelta());
             break;
 
         case 'ArrowDown':
         case 'KeyS':
-            //moveBackward = true;
+            moveBackward = true;
             //third_player.position.x += -0.1;
             third_player.translateZ (-speed* clock.getDelta());
             //idle_to_walk();
@@ -175,7 +180,8 @@ const onKeyDown = function ( event ) {
 
         case 'ArrowRight':
         case 'KeyD':
-            //moveRight = true;
+            moveRight = true;
+            curr_behavior = "turn_right";
             third_player.rotateOnAxis(new THREE.Vector3(0, 1, 0), -rotate_speed*clock.getDelta());
             break;
 
@@ -188,38 +194,39 @@ const onKeyDown = function ( event ) {
 
 const onKeyUp = function ( event ) {
     controls.enabled = true;
-    controls.target = third_player.position;
+    //controls.target = third_player.position;
     pressKey = false;
     switch ( event.code ) {
 
         case 'ArrowUp':
         case 'KeyW':
-            //moveForward = false;
+            moveForward = false;
             //walk_to_idle();
             curr_behavior = "idle";
             break;
 
         case 'ArrowLeft':
         case 'KeyA':
-            //moveLeft = false;
+            moveLeft = false;
             break;
 
         case 'ArrowDown':
         case 'KeyS':
-            //moveBackward = false;
+            moveBackward = false;
             //walk_to_idle();
             curr_behavior = "idle";
             break;
 
         case 'ArrowRight':
         case 'KeyD':
-            //moveRight = false;
+            moveRight = false;
             break;
     }
 
 };
 
 function behavior(){
+    /*
     if(last_behavior != curr_behavior){
         if(last_behavior == "idle" && curr_behavior == "walk"){
             idle_to_walk();
@@ -229,6 +236,21 @@ function behavior(){
         }
     }
     last_behavior = curr_behavior;
+    */
+    if(idleAction == null || walkAction == null || runAction == null){
+        return;
+    }
+    console.log(moveForward);
+    if(moveForward == true || moveBackward == true || moveLeft == true || moveRight == true){
+        setWeight(idleAction, 0);
+        setWeight(runAction, 0);
+        setWeight(walkAction, 1);
+    }else{
+        setWeight(idleAction, 1);
+        setWeight(runAction, 0);
+        setWeight(walkAction, 0);
+    }
+
 }
 
 export { third_person_gltf_setparames,  third_person_gltf_tick};
