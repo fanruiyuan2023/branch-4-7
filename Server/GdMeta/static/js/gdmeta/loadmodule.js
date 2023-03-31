@@ -74,7 +74,7 @@
                 */
             }, function(res){
                 // 显示加载的百分比
-                //console.log(res.loaded/res.total*100 + "%")
+                // console.log(res.loaded/res.total*100 + "%")
             });
         //添加一个蓝色点光源
         const light = new THREE.PointLight(0x0000ff, 1, 100, 1);
@@ -103,12 +103,10 @@
         camera.position.y = 2;
         camera.lookAt(new THREE.Vector3(0,0,0));
 
-        //////////////////////////////////////////////
-        // 加载第三人称
-        third_person_gltf_setparames(scene, camera, controls);
-        //controls.enabled = false;
-
-        ///////////////////////////////////////////////
+        // 加载第三人称角色
+        window.setTimeout(function(){
+            third_person_gltf_setparames(scene, camera, controls);
+        }, 3000);
 
         animate();
     }
