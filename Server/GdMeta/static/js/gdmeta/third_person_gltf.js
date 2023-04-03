@@ -66,9 +66,9 @@ function load_module(){
         idleAction = mixer.clipAction( animations[ 2 ] );
         walkAction = mixer.clipAction( animations[ 6 ] );
         runAction = mixer.clipAction( animations[ 3 ] );
-        setWeight(idleAction, 1);
+        setWeight(idleAction, 0);
         setWeight(walkAction, 0);
-        setWeight(runAction, 0);
+        setWeight(runAction, 1);
         idleAction.play();
         walkAction.play();
         runAction.play();
