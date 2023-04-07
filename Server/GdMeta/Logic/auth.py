@@ -37,3 +37,5 @@ class UserAuth(APIView):
             logging.error(str(e))
             logging.error('任务执行错误', exc_info=True)
         return HttpResponse(json.dumps(ret))
+
+# 参考文件：https://blog.csdn.net/m0_58987515/article/details/124972835

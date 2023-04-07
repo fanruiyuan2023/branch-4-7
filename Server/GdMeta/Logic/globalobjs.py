@@ -8,6 +8,6 @@ host = "localhost"
 root = "root"
 # 数据库密码
 pwd = "root"
-# 数据库名称s
+# 数据库名称
 db_name = "gdmeta"
 

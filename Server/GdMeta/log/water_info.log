@@ -12908,3 +12908,5 @@ MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'None' in 'field li
 [2023-04-03 15:29:53,098][Thread-2:4892][task_id:django.request][log.py:241][WARNING][Not Found: /favicon.ico]
 [2023-04-03 15:30:40,859][Thread-2:4892][task_id:root][views.py:21][INFO][Login is called...]
 [2023-04-03 15:30:41,853][Thread-1:14480][task_id:django.request][log.py:241][WARNING][Not Found: /favicon.ico]
+[2023-04-03 15:39:59,466][MainThread:10800][task_id:django.utils.autoreload][autoreload.py:266][INFO][D:\Projects\Server\GdMeta\Logic\auth.py changed, reloading.]
+[2023-04-03 15:40:01,852][MainThread:16268][task_id:django.utils.autoreload][autoreload.py:677][INFO][Watching for file changes with StatReloader]
