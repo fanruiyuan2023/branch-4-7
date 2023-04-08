@@ -7,6 +7,7 @@ from .fileupload import *
 from .register import *
 from .dianzan import *
 from .remark import *
+from .userManager import *
 
 urlpatterns = [
 
@@ -21,6 +22,17 @@ urlpatterns = [
     url(r'^dianzan/$', SubmitDianzan.as_view(), name='gdmeta'),
     url(r'^submitRemark/$', SubmitRemark.as_view(), name='gdmeta'),
     url(r'^getRemark/$', GetRemarkInfo.as_view(), name='gdmeta'),
+    url(r'^adminPage/$', AdminPage.as_view(), name='gdmeta'),
+
+    url(r'^adminPage/$', AdminPage.as_view(), name='gdmeta'),
+
+    url(r'^userInfo/$', UserManager.as_view(), name='gdmeta'),
+
+    url(r'^setUserStatus/$', UserStatus.as_view(), name='gdmeta'),
+
+
+
+
 
 
 

@@ -4143,3 +4143,27 @@ Traceback (most recent call last):
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
     _mysql.connection.query(self, query)
 MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'None' in 'field list'")
+[2023-04-08 15:29:03,606][Thread-1:12044][task_id:root][db_tool.py:35][ERROR][(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1' at line 1")]
+[2023-04-08 15:29:03,623][Thread-1:12044][task_id:root][db_tool.py:36][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 22, in select
+    cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1' at line 1")
+[2023-04-08 15:29:07,994][Thread-1:12044][task_id:root][db_tool.py:35][ERROR][(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1' at line 1")]
+[2023-04-08 15:29:07,995][Thread-1:12044][task_id:root][db_tool.py:36][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\db_tool.py", line 22, in select
+    cursor.execute(sql)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1' at line 1")

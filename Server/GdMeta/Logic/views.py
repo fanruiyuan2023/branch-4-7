@@ -117,3 +117,12 @@ class ModulePage(APIView):
             logging.error('任务执行错误', exc_info=True)
         return authorId;
 
+class AdminPage(APIView):
+
+    def get(self, request, *args, **kwargs):
+        try:
+            response = render(request, "admin.html");
+            return response;
+        except BaseException as e:
+            logging.error(str(e))
+            logging.error('任务执行错误', exc_info=True)
