@@ -1,0 +1,282 @@
+﻿<!-- 参考bootstrap文档：https://v3.bootcss.com/javascript/#tabs -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>后台管理页面</title>
+    <link rel="stylesheet" media="screen" href="/static/bootstrap-3.4.1-dist/css/bootstrap.css">
+</head>
+    <style>
+        .tabDiv{
+            margin-left:100px;
+            margin-right:100px;
+            margin-top:30px;
+            background:#CCC;
+        }
+
+        .tabContent{
+            padding-top:20px;
+            background:#FFF;
+        }
+
+        #user_mrg{
+            height:400px;
+            overflow-y: scroll;
+        }
+
+        .btn{
+            margin-left:5px;
+            margin-right:5px;
+        }
+
+        .table{
+            margin-bottom:5px;
+        }
+
+    </style>
+<body>
+
+    <div class="tabDiv">
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li id="nav_user_mrg" role="presentation" class="active"><a href="#user_mrg" aria-controls="user_mrg" role="tab" data-toggle="tab">用户管理</a></li>
+        <li id="nav_module_mrg" role="presentation"><a href="#module_mrg" aria-controls="module_mrg" role="tab" data-toggle="tab">模型管理</a></li>
+        <li id="nav_remark_mrg" role="presentation"><a href="#remark_mrg" aria-controls="remark_mrg" role="tab" data-toggle="tab">评论管理</a></li>
+        <li id="nav_zonghe_mrg" role="presentation"><a href="#zonghe_mrg" aria-controls="zonghe_mrg" role="tab" data-toggle="tab">综合管理</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content tabContent">
+        <!-- 用户管理 -->
+        <table>
+            <tr>
+                <td width="20%"  align="center"><span>用户名：</span></td>
+                <td width="20%"  align="center"><input type="text" class="form-control" id="inputName" placeholder="请输入用户名"></td>
+                <td width="20%"  align="center"><span>用户状态：</span></td>
+                <td width="20%"  align="center">
+                    <select id="combStatus" class="form-control combobox">
+                      <option></option>
+                      <option value="1">正常</option>
+                      <option value="0">无效</option>
+                    </select>
+                </td>
+                <td width="20%"  align="center"><button class="btn btn-success" onclick="getUserInfo()">查询</button></td>
+            </tr>
+        </table>
+        <hr style="width:100%;">
+        <table class="table table-hover" >
+            <thead>
+                <tr>
+                    <td width="20%"><h4>Id</h4></td>
+                    <td width="20%"><h4>用户名</h4></td>
+                    <td width="20%"><h4>电话</h4></td>
+                    <td width="20%"><h4>状态</h4></td>
+                    <td width="20%"><h4>操作</h4></td>
+                </tr>
+              </thead>
+        </table>
+
+        <div role="tabpanel" class="tab-pane active" id="user_mrg">
+
+            <table class="table table-hover">
+
+              <tbody id="user_mrg_table">
+              </tbody>
+
+            </table>
+        </div>
+        <!-- 模型管理 -->
+        <div role="tabpanel" class="tab-pane" id="module_mrg">模型管理</div>
+        <!-- 评论管理 -->
+        <div role="tabpanel" class="tab-pane" id="remark_mrg">评论管理</div>
+        <!-- 综合管理 -->
+        <div role="tabpanel" class="tab-pane" id="zonghe_mrg">综合管理</div>
+      </div>
+
+    </div>
+
+    <!-- scripts -->
+    <script src="/static/js/jquery-2.1.1.min.js"></script>
+    <script src="/static/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+
+    <script>
+
+        $(function(){
+            // 默认展示用户管理页面
+            getUserInfo();
+        })
+
+        $('#nav_user_mrg').click(function (e) {
+          e.preventDefault();
+          //alert(1);
+          getUserInfo();
+        })
+
+        function getUserInfo(){
+            var userName = $("#inputName").val();
+            var status = $("#combStatus").val();
+            $.ajax({
+                url:"/gdmeta/userInfo/",
+                type:"POST",
+                data: {
+                    "userName":userName,
+                    "status":status
+                },
+                success: function(data){
+                    console.log(data)
+                    obj = JSON.parse(data)
+                    if (obj.status == "success"){
+                        parseUserInfo(obj.data)
+                    }
+                    if (obj.status == "failed"){
+                        alert("用户名或者密码错误");
+                    }
+                    if (obj.status == "error"){
+                        alert("服务器发生异常");
+                    }
+                }
+            })
+        }
+
+        function parseUserInfo(data){
+
+            var content = "";
+            for(var i=0;i<data.length;i++){
+                var item = data[i];
+                content += "<tr>";
+                content += '<td width="20%">'
+                content += item[0];
+                content += "</td>"
+                content += '<td width="20%">'
+                content += item[1];
+                content += "</td>"
+                content += '<td width="20%">'
+                content += item[2];
+                content += "</td>"
+                var status = "正常";
+                if(item[3] == 0){
+                    status = "无效"
+                }
+                content += '<td width="20%">';
+                content += status;
+                content += "</td>"
+
+                content += '<td width="20%">'
+                content += '<button class="btn btn-danger" onclick="changeUserStatus($#$, 0)">删除</button>';
+                content += '<button class="btn btn-primary" onclick="changeUserStatus($#$, 1)">复效</button>';
+                content += "</td>"
+                content += "</tr>";
+
+                content = content.replaceAll("$#$", "'" + item[0] +"'");
+            }
+
+            var tableObj = document.getElementById("user_mrg_table");
+            tableObj.innerHTML = content;
+        }
+
+        // 修改用户状态
+        function changeUserStatus(userId, status){
+
+            $.ajax({
+                url:"/gdmeta/setUserStatus/",
+                type:"POST",
+                data: {
+                    "userId":userId,
+                    "status":status,
+                },
+                success: function(data){
+                    console.log(data)
+                    obj = JSON.parse(data)
+
+                    if (obj.status == "success"){
+                        alert("修改成功。");
+                        getUserInfo();
+                    }
+                    if (obj.status == "failed"){
+                        alert("修改失败");
+                    }
+                    if (obj.status == "error"){
+                        alert("服务器发生异常");
+                    }
+                }
+            })
+        }
+
+        function login(){
+            var user = $("#user").val();
+            var pwd = $("#pwd").val();
+            pwd = hex_md5(pwd);
+            //alert(pwd);
+
+            $.ajax({
+                url:"/gdmeta/userauth/",
+                type:"POST",
+                //headers: {"X-CSRFToken": getCookie("csrftoken")},
+                data: {
+                    "user":user,
+                    "pwd":pwd,
+                },
+                success: function(data){
+                    console.log(data)
+                    obj = JSON.parse(data)
+
+                    if (obj.status == "success"){
+                        //alert(obj.url)
+                        window.location.href="../main/";
+                    }
+                    if (obj.status == "failed"){
+                        alert("用户名或者密码错误");
+                    }
+                    if (obj.status == "error"){
+                        alert("服务器发生异常");
+                    }
+                }
+            })
+        }
+
+        function RegisterDlg(){
+            $('#registerDlg').modal('show');
+        }
+
+        function Register(){
+            var userName = $("#userName").val();
+            var password = $("#password").val();
+            var password_2 = $("#password_2").val();
+            var telephoneNum = $("#telephoneNum").val();
+            if(password != password_2){
+                alert("两次输入密码不一致");
+                return;
+            }
+            $.ajax({
+                url:"/gdmeta/userRegister/",
+                type:"POST",
+                //headers: {"X-CSRFToken": getCookie("csrftoken")},
+                data: {
+                    "userName":userName,
+                    "password":hex_md5(password),
+                    "telephoneNum":telephoneNum,
+                },
+                success: function(data){
+                    console.log(data)
+                    obj = JSON.parse(data)
+                    if (obj.status == "success"){
+                        alert("注册成功，请登录系统");
+                        window.location.href='../login/';
+                    }
+                    else{
+                        alert("invalid user !")
+                    }
+                    $('#registerDlg').modal('hide');
+                },
+                error: function(e){
+                    alert("发生错误");
+                }
+            })
+        }
+
+
+    </script>
+
+</body>
+</html>
