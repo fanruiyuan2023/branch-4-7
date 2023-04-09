@@ -39,3 +39,4 @@ class UserAuth(APIView):
         return HttpResponse(json.dumps(ret))
 
 # 参考文件：https://blog.csdn.net/m0_58987515/article/details/124972835
+# https://blog.csdn.net/adminwg/article/details/126210925
