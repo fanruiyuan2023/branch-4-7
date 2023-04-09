@@ -329,8 +329,11 @@
                         var zan_num = eval(item.innerHTML) + 1;
                         item.innerHTML = zan_num;
                     }
-                    else{
-                        alert("点赞失败 !")
+                    else if(obj.status == "noLogin"){
+                        alert("登录后才能点赞")
+                    }
+                    else {
+                        alert("点赞失败");
                     }
                 },
                 error: function(e){

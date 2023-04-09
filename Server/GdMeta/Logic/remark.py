@@ -12,22 +12,26 @@ class SubmitRemark(APIView):
     def post(self, request):
         ret = {}
         try:
-            module_code = request.POST.get("module_code");
-            author_id = request.POST.get("author_id");
-            remark = request.POST.get("remark");
-            guest_id = request.session.get("userId");
-            status = 1;
-            sql = "insert into remark_info(guest_id,author_id,module_code,remark,status)" \
-                  " values({},{},'{}','{}',{})"\
-                .format(guest_id,author_id,module_code,remark,status);
-            logging.info(sql);
-            db = DbTool(host=host, root=root, pwd=pwd, db_name=db_name);
-            num = db.update(sql);
-            if num > 0:
-                ret["status"] = "success";
+            userId = request.session.get("userId", None);
+            if userId == None:
+                ret["status"] = "noLogin";
             else:
-                ret["status"] = "failed";
-            db.close()
+                module_code = request.POST.get("module_code");
+                author_id = request.POST.get("author_id");
+                remark = request.POST.get("remark");
+                guest_id = request.session.get("userId");
+                status = 1;
+                sql = "insert into remark_info(guest_id,author_id,module_code,remark,status)" \
+                      " values({},{},'{}','{}',{})"\
+                    .format(guest_id,author_id,module_code,remark,status);
+                logging.info(sql);
+                db = DbTool(host=host, root=root, pwd=pwd, db_name=db_name);
+                num = db.update(sql);
+                if num > 0:
+                    ret["status"] = "success";
+                else:
+                    ret["status"] = "failed";
+                db.close()
         except BaseException as e:
             ret["status"] = "error"
             logging.error(str(e))

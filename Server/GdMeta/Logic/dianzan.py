@@ -12,18 +12,22 @@ class SubmitDianzan(APIView):
     def post(self, request):
         ret = {}
         try:
-            module_code = request.POST.get("module_code");
-            guest_id = request.session.get("userId");
-            status = 1;
-            sql = "insert into dian_zan(module_code,user_id,status) values('{}',{},{})".format(module_code, guest_id, status);
-            logging.info(sql);
-            db = DbTool(host=host, root=root, pwd=pwd, db_name=db_name);
-            num = db.update(sql);
-            if num > 0:
-                ret["status"] = "success";
+            userId = request.session.get("userId", None);
+            if userId == None:
+                ret["status"] = "noLogin";
             else:
-                ret["status"] = "failed";
-            db.close()
+                module_code = request.POST.get("module_code");
+                guest_id = request.session.get("userId");
+                status = 1;
+                sql = "insert into dian_zan(module_code,user_id,status) values('{}',{},{})".format(module_code, guest_id, status);
+                logging.info(sql);
+                db = DbTool(host=host, root=root, pwd=pwd, db_name=db_name);
+                num = db.update(sql);
+                if num > 0:
+                    ret["status"] = "success";
+                else:
+                    ret["status"] = "failed";
+                db.close()
         except BaseException as e:
             ret["status"] = "error"
             logging.error(str(e))

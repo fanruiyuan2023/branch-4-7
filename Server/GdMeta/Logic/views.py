@@ -84,7 +84,11 @@ class MainPage(APIView):
 class Upload(APIView):
     def get(self, request, *args, **kwargs):
         try:
-            return  HttpResponse(content=open(base_dir + "/templates/upload.html", encoding='utf-8').read());
+            userId = request.session.get("userId", None);
+            if userId == None:
+                return HttpResponse(content=open(base_dir + "/templates/login_jupiter.html", encoding='utf-8').read());
+            else:
+                return  HttpResponse(content=open(base_dir + "/templates/upload.html", encoding='utf-8').read());
         except BaseException as e:
             logging.error(str(e))
             logging.error('任务执行错误', exc_info=True)

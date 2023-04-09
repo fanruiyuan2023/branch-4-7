@@ -19,8 +19,13 @@
             background:#FFF;
         }
 
-        #user_mrg{
-            height:400px;
+        #div_table_user_mrg{
+            height:300px;
+            overflow-y: scroll;
+        }
+
+        #div_table_module_mrg{
+            height:300px;
             overflow-y: scroll;
         }
 
@@ -78,10 +83,13 @@
                     </tr>
                   </thead>
             </table>
-            <table class="table table-hover" id="table_1">
-              <tbody id="user_mrg_table">
-              </tbody>
-            </table>
+            <div id="div_table_user_mrg">
+                <table class="table table-hover" >
+                  <tbody id="user_mrg_table">
+                  </tbody>
+                </table>
+            </div>
+
         </div>
 
 
@@ -116,10 +124,12 @@
                     </tr>
                   </thead>
             </table>
-            <table class="table table-hover">
-              <tbody id="module_mrg_table">
-              </tbody>
-            </table>
+            <div id="div_table_module_mrg">
+                <table class="table table-hover">
+                  <tbody id="module_mrg_table">
+                  </tbody>
+                </table>
+            </div>
         </div>
 
 
