@@ -4167,3 +4167,11 @@ Traceback (most recent call last):
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 259, in query
     _mysql.connection.query(self, query)
 MySQLdb._exceptions.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1' at line 1")
+[2023-04-09 15:13:01,590][Thread-2:17524][task_id:root][fileupload.py:123][ERROR][[Errno 2] No such file or directory: './temp/x9FapxSceaD8pGFC7cw8hhtoGu1OdKgr_module/image.jpg']
+[2023-04-09 15:13:01,602][Thread-2:17524][task_id:root][fileupload.py:124][ERROR][任务执行错误]
+Traceback (most recent call last):
+  File "D:\Projects\Server\GdMeta\Logic\fileupload.py", line 117, in save_file
+    shutil.copyfile(unzipDir+'/image.jpg',targetDir+'/image.jpg');
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\shutil.py", line 261, in copyfile
+    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: './temp/x9FapxSceaD8pGFC7cw8hhtoGu1OdKgr_module/image.jpg'

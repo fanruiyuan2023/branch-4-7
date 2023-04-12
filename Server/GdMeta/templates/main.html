@@ -222,6 +222,7 @@
         <div><button class="btn btn-default" onclick="gotoLogin();">注册</button></div>
         <div><button class="btn btn-default" onclick="logout();">注销</button></div>
         <div><button class="btn btn-default" onclick="gotoUpload();">发布</button></div>
+        <div><button class="btn btn-default" onclick="gotoAdminpage();">管理</button></div>
         <div><button class="btn btn-default" onclick="about();"><a href="http://www.imut.edu.cn/">关于</a></button></div>
     </div>
     <div class="demo" style="background: #3a4458;">
@@ -302,6 +303,10 @@
 		function gotoUpload(){
 		    window.location.href="../upload/";
 		}
+
+        function gotoAdminpage(){
+            window.location.href="../adminPage/";
+        }
 
 		function logout(){
 		    alert("您已经成功退出系统！");
